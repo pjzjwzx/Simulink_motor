@@ -1,0 +1,10 @@
+{
+  "encoder_angle_noise": "disabled",
+  "current_noise": "disabled",
+  "deadtime": "disabled",
+  "minimum_pulse": "harness_plant_duty_path",
+  "inverter_voltage_drop": "disabled",
+  "extra_sensor_delay": "disabled",
+  "angle_timestamp_extrapolation": "disabled",
+  "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, effective duty, Vdc, raw angle and flags to one common representative timestamp."
+}

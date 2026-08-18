@@ -1,0 +1,13 @@
+{
+  "run_id": "stage1_20260818_112857_251",
+  "final_status": "BLOCKED",
+  "cases": {
+    "case_id": "fixed_05deg_e",
+    "status": "PASS",
+    "elapsed_s": 19.8609782,
+    "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_112857_251\\stage1\\cases\\fixed_05deg_e",
+    "message": "Simulation and analysis completed."
+  },
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_112857_251\\stage1",
+  "message": "Bounded smoke completed; the full Stage-1 acceptance matrix was intentionally not executed."
+}

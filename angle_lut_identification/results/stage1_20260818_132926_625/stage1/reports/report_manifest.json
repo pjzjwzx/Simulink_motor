@@ -1,0 +1,95 @@
+{
+  "schema_version": "stage1-report-bundle-v1",
+  "out_dir": "D:/Desktop/HKU_2/FOC_Arclab/simulink_2/angle_lut_identification/results/stage1_20260818_132926_625/stage1",
+  "report_dir": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132926_625\\stage1\\reports",
+  "generation_status": "COMPLETE",
+  "offline_evaluation_only": true,
+  "mathematical_gate_modified": false,
+  "case_count_discovered": 1,
+  "metrics_available": true,
+  "primary_case_id": "nonideal_combined",
+  "artifacts": [
+    {
+      "name": "timing_timeline",
+      "available": true,
+      "reason": "",
+      "source_case_id": "nonideal_combined",
+      "files": [
+        "timing_timeline.png",
+        "timing_timeline.pdf"
+      ]
+    },
+    {
+      "name": "time_alignment_report",
+      "available": true,
+      "reason": "",
+      "source_case_id": "nonideal_combined",
+      "files": [
+        "time_alignment_report.csv",
+        "time_alignment_report.json"
+      ]
+    },
+    {
+      "name": "yd_yq_trajectory",
+      "available": true,
+      "reason": "",
+      "source_case_id": "nonideal_combined",
+      "files": [
+        "yd_yq_trajectory.png",
+        "yd_yq_trajectory.pdf"
+      ]
+    },
+    {
+      "name": "residual_amplitude_vs_speed",
+      "available": true,
+      "reason": "",
+      "source_case_id": "",
+      "files": [
+        "residual_amplitude_vs_speed.png",
+        "residual_amplitude_vs_speed.pdf"
+      ]
+    },
+    {
+      "name": "condition_consistency",
+      "available": false,
+      "reason": "Speed-direction and load metrics are unavailable.",
+      "source_case_id": "",
+      "files": [
+        "condition_consistency.png",
+        "condition_consistency.pdf"
+      ]
+    },
+    {
+      "name": "error_budget",
+      "available": true,
+      "reason": "",
+      "source_case_id": "nonideal_combined",
+      "files": [
+        "error_budget.csv",
+        "error_budget.json"
+      ]
+    },
+    {
+      "name": "reference_lut",
+      "available": true,
+      "reason": "",
+      "source_case_id": "nonideal_combined",
+      "files": [
+        "reference_lut.csv",
+        "reference_lut.mat",
+        "reference_lut.png",
+        "reference_lut.pdf"
+      ]
+    },
+    {
+      "name": "gate_failures",
+      "available": true,
+      "reason": "",
+      "source_case_id": "",
+      "files": [
+        "gate_failures.json",
+        "gate_failures.txt"
+      ]
+    }
+  ]
+}

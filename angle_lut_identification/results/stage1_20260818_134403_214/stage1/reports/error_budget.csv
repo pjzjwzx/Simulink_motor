@@ -1,0 +1,20 @@
+component,case_id,category,observed_rmse_e_deg,reference_rmse_e_deg,incremental_rss_e_deg,mean_bias_e_deg,valid_fraction,available,note
+periodic_combined,periodic_combined,ideal_reference,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_Rs_-10percent,mismatch_Rs_-10percent,parameter_mismatch,1.29228586159479,0.822439792470259,0.996792624290161,0.0742499863258829,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_Rs_+10percent,mismatch_Rs_+10percent,parameter_mismatch,1.78160712258261,0.822439792470259,1.58041663082826,-0.69888475324634,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_Ls_-10percent,mismatch_Ls_-10percent,parameter_mismatch,1.78899481978349,0.822439792470259,1.58874014645997,-0.937299728446739,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_Ls_+10percent,mismatch_Ls_+10percent,parameter_mismatch,1.08348486356489,0.822439792470259,0.705359651054485,0.426008964025021,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_psi_-10percent,mismatch_psi_-10percent,parameter_mismatch,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+mismatch_psi_+10percent,mismatch_psi_+10percent,parameter_mismatch,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+angle_sync_20kHz,angle_sync_20kHz,angle_sampling,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+angle_timestamped_1kHz,angle_timestamped_1kHz,angle_sampling,0.825131929656975,0.822439792470259,0.0665994677225006,-0.258001248503919,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_angle_noise,nonideal_angle_noise,nonideal,0.818342192966017,0.822439792470259,0,-0.258048959287686,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_current_noise,nonideal_current_noise,nonideal,0.956252877305106,0.822439792470259,0.487865097251045,-0.25801767395397,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_deadtime,nonideal_deadtime,nonideal,0.850744482429323,0.822439792470259,0.217621143608368,-0.260011698645641,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_min_pulse,nonideal_min_pulse,nonideal,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_voltage_drop,nonideal_voltage_drop,nonideal,1.70643624305528,0.822439792470259,1.49516468637207,0.0420577237063942,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_delay_5us,nonideal_delay_5us,nonideal,0.73587510439241,0.822439792470259,0,-0.258008756501411,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_delay_50us,nonideal_delay_50us,nonideal,0.822563316262024,0.822439792470259,0.0142547192696194,-0.258007413760102,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+nonideal_combined,nonideal_combined,nonideal,1.61463616725282,0.822439792470259,1.38947570700691,0.087640790532492,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+voltage_ab_reconstructed,voltage_ab_reconstructed,voltage_ab,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.
+voltage_ab_plant_evaluation,voltage_ab_plant_evaluation,voltage_ab,0.822439792470259,0.822439792470259,0,-0.257989965519033,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.

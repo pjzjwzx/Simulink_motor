@@ -1,0 +1,1318 @@
+{
+  "schema_version": "angle-lut-stage1-run-v1",
+  "run_id": "stage1_20260818_134403_214",
+  "stage": 1,
+  "created_at": "2026-08-18T13:44:03.238+08:00",
+  "project_root": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification",
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1",
+  "matlab_version": "24.2.0.3070828 (R2024b) Update 7",
+  "release": "2024b",
+  "products": [
+    "Audio Toolbox",
+    "C2000 Microcontroller Blockset",
+    "Control System Toolbox",
+    "DSP HDL Toolbox",
+    "DSP System Toolbox",
+    "Database Toolbox",
+    "Deep Learning HDL Toolbox",
+    "Deep Learning Toolbox",
+    "Embedded Coder",
+    "Fixed-Point Designer",
+    "Fuzzy Logic Toolbox",
+    "GPU Coder",
+    "Global Optimization Toolbox",
+    "HDL Coder",
+    "HDL Verifier",
+    "Industrial Communication Toolbox",
+    "Instrument Control Toolbox",
+    "MATLAB",
+    "MATLAB Coder",
+    "MATLAB Compiler",
+    "MATLAB Compiler SDK",
+    "MATLAB Report Generator",
+    "MATLAB Test",
+    "Model Predictive Control Toolbox",
+    "Model-Based Calibration Toolbox",
+    "Motor Control Blockset",
+    "Optimization Toolbox",
+    "Parallel Computing Toolbox",
+    "ROS Toolbox",
+    "Robotics System Toolbox",
+    "Robust Control Toolbox",
+    "Signal Integrity Toolbox",
+    "Signal Processing Toolbox",
+    "Simscape",
+    "Simscape Electrical",
+    "Simulink",
+    "Simulink Check",
+    "Simulink Code Inspector",
+    "Simulink Coder",
+    "Simulink Compiler",
+    "Simulink Control Design",
+    "Simulink Coverage",
+    "Simulink Design Optimization",
+    "Simulink Design Verifier",
+    "Simulink Desktop Real-Time",
+    "Simulink Fault Analyzer",
+    "Simulink PLC Coder",
+    "Simulink Real-Time",
+    "Simulink Report Generator",
+    "Simulink Test",
+    "Statistics and Machine Learning Toolbox",
+    "Symbolic Math Toolbox",
+    "UAV Toolbox"
+  ],
+  "random_seed": 20260818,
+  "source_model": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\FOC_fw_hifi_v1_0709backup.slx",
+  "harness_model": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\models\\angle_lut_harness.slx",
+  "theory_pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\..\\..\\..\\..\\Download\\Angle_LUT_Theory_Review_v1.1.pdf",
+  "implementation_spec": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\..\\..\\..\\..\\Download\\Codex_Simulink_Angle_LUT_Implementation_Spec.docx",
+  "options": {
+    "case_ids": [],
+    "max_cases": null,
+    "stop_time_override_s": [],
+    "simulation_mode": "rapid-accelerator",
+    "run_tests": true,
+    "rebuild_harness": false,
+    "stop_on_case_error": true
+  },
+  "formula_contract": "Angle_LUT_Theory_Review_v1.1 E01-E09",
+  "lut_learning_enabled": false,
+  "control_compensation_e_rad": 0,
+  "voltage_ab_contract": {
+    "deployment_source": "reconstructed_duty_vdc",
+    "plant_source": "plant_applied_evaluation_only",
+    "case_selector_field": "voltage_source",
+    "gate_source": "reconstructed_deployment_only",
+    "truth_policy": "branch scoring only; never estimator or gates"
+  },
+  "stage0_result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage0_20260818_134242_494\\stage0",
+  "source_model_sha256_before": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "file_inventory": {
+    "csv_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\file_inventory.csv",
+    "json_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\file_inventory.json",
+    "entry_count": 55,
+    "csv_sha256": "4604cdc028565caa184573183cb903b1e471b6c1a6d96c3bfdb6e4ec517a6c4a"
+  },
+  "environment": {
+    "schema_version": "angle-lut-environment-v1",
+    "collected_at_utc": "2026-08-18T05:44:11.956Z",
+    "matlab": {
+      "Name": "MATLAB",
+      "Version": "24.2.0.3070828 (R2024b) Update 7",
+      "Release": "2024b"
+    },
+    "products": [
+      {
+        "Name": "Audio Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "C2000 Microcontroller Blockset",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Test",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Fault Analyzer",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      }
+    ],
+    "model": {
+      "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\FOC_fw_hifi_v1_0709backup.slx",
+      "name": "FOC_fw_hifi_v1_0709backup",
+      "sha256": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+      "loaded_before_call": false,
+      "solver_type": "Variable-step",
+      "solver": "VariableStepAuto",
+      "stop_time_expression": "10.0",
+      "stop_time_s": 10
+    },
+    "powergui": {
+      "present": true,
+      "count": 1,
+      "blocks": {
+        "block_path": "FOC_fw_hifi_v1_0709backup/powergui1",
+        "mode": "Discrete",
+        "sample_time_expression": "5e-6",
+        "sample_time_s": 5E-6
+      }
+    },
+    "timing": {
+      "Ts_base_s": 5E-6,
+      "fpwm_Hz": 20000,
+      "T_ident_s": 5E-5
+    }
+  },
+  "case_count_defined": 36,
+  "case_count_selected": 36,
+  "case_ids": [
+    "baseline_legacy_equivalence",
+    "fixed_00deg_e",
+    "fixed_05deg_e",
+    "fixed_10deg_e",
+    "fixed_20deg_e",
+    "periodic_constant",
+    "periodic_1x",
+    "periodic_2x",
+    "periodic_combined",
+    "speed_-20radps_m",
+    "speed_-10radps_m",
+    "speed_-05radps_m",
+    "speed_+05radps_m",
+    "speed_+10radps_m",
+    "speed_+20radps_m",
+    "load_0Nm",
+    "load_1Nm",
+    "load_2Nm",
+    "mismatch_Rs_-10percent",
+    "mismatch_Rs_+10percent",
+    "mismatch_Ls_-10percent",
+    "mismatch_Ls_+10percent",
+    "mismatch_psi_-10percent",
+    "mismatch_psi_+10percent",
+    "angle_sync_20kHz",
+    "angle_timestamped_1kHz",
+    "nonideal_angle_noise",
+    "nonideal_current_noise",
+    "nonideal_deadtime",
+    "nonideal_min_pulse",
+    "nonideal_voltage_drop",
+    "nonideal_delay_5us",
+    "nonideal_delay_50us",
+    "nonideal_combined",
+    "voltage_ab_reconstructed",
+    "voltage_ab_plant_evaluation"
+  ],
+  "contractual_stop_times": true,
+  "tests": {
+    "enabled": true,
+    "skipped": false,
+    "count": 60,
+    "passed": 60,
+    "failed": 0,
+    "incomplete": 0
+  },
+  "predictor_floor_reference": {
+    "available": true,
+    "source_case_id": "fixed_00deg_e",
+    "condition": "zero injected angle error; configured noise disabled",
+    "euler_rmse_e_rad": 0.013154940443855064,
+    "euler_rmse_e_deg": 0.75372256717884911,
+    "rk2_rmse_e_rad": 0.011195669633173488,
+    "rk2_rmse_e_deg": 0.64146461880361938,
+    "heun_rmse_e_rad": 0.011195669633173493,
+    "heun_rmse_e_deg": 0.64146461880361971
+  },
+  "source_model_sha256_after": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "harness_model_sha256": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "case_count_completed": 36,
+  "case_implementations": [
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "baseline_legacy_equivalence"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "fixed_00deg_e"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "fixed_05deg_e"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "fixed_10deg_e"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "fixed_20deg_e"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "periodic_constant"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "periodic_1x"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "periodic_2x"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "periodic_combined"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_-20radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_-10radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_-05radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_+05radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_+10radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "speed_+20radps_m"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "load_0Nm"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "load_1Nm"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "load_2Nm"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_Rs_-10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_Rs_+10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_Ls_-10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_Ls_+10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_psi_-10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "mismatch_psi_+10percent"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "angle_sync_20kHz"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "deployment_analysis_path",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "angle_timestamped_1kHz"
+    },
+    {
+      "encoder_angle_noise": "harness_forward_model",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_angle_noise"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "harness_measurement_path",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_current_noise"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "harness_plant_duty_path",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_deadtime"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "harness_plant_duty_path",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_min_pulse"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "harness_plant_voltage_path",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_voltage_drop"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "common_record_shift_with_interval_zoh_average",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0.1,
+      "delay_current_interval_fraction": 0.9,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_delay_5us"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "common_record_shift_with_interval_zoh_average",
+      "delay_whole_intervals": 1,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_delay_50us"
+    },
+    {
+      "encoder_angle_noise": "harness_forward_model",
+      "current_noise": "harness_measurement_path",
+      "deadtime": "harness_plant_duty_path",
+      "minimum_pulse": "harness_plant_duty_path",
+      "inverter_voltage_drop": "harness_plant_voltage_path",
+      "extra_sensor_delay": "common_record_shift_with_interval_zoh_average",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0.1,
+      "delay_current_interval_fraction": 0.9,
+      "angle_timestamp_extrapolation": "deployment_analysis_path",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "nonideal_combined"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "voltage_ab_reconstructed"
+    },
+    {
+      "encoder_angle_noise": "disabled",
+      "current_noise": "disabled",
+      "deadtime": "disabled",
+      "minimum_pulse": "disabled",
+      "inverter_voltage_drop": "disabled",
+      "extra_sensor_delay": "disabled",
+      "delay_whole_intervals": 0,
+      "delay_previous_interval_fraction": 0,
+      "delay_current_interval_fraction": 1,
+      "angle_timestamp_extrapolation": "disabled",
+      "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+      "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+      "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+      "voltage_ab_selected_source": "plant_evaluation",
+      "voltage_ab_gate_source": "reconstructed_deployment_only",
+      "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates",
+      "case_id": "voltage_ab_plant_evaluation"
+    }
+  ],
+  "case_count_executed": 36,
+  "voltage_ab_cases": [
+    {
+      "case_id": "voltage_ab_reconstructed",
+      "selected_source": "reconstructed",
+      "selected_branch_rmse_e_deg": 0.82243979247025911,
+      "pseudo_angle_delta_rms_e_deg": 5.6378587340862144E-14,
+      "pseudo_angle_delta_mean_e_deg": -2.0045353182820237E-16,
+      "residual_delta_rms_A": 7.7645268548013362E-16,
+      "voltage_delta_rms_V": 1.6353967953711162E-15,
+      "branches_numerically_distinct": false
+    },
+    {
+      "case_id": "voltage_ab_plant_evaluation",
+      "selected_source": "plant_evaluation",
+      "selected_branch_rmse_e_deg": 0.82243979247025956,
+      "pseudo_angle_delta_rms_e_deg": 5.6378587340862144E-14,
+      "pseudo_angle_delta_mean_e_deg": -2.0045353182820237E-16,
+      "residual_delta_rms_A": 7.7645268548013362E-16,
+      "voltage_delta_rms_V": 1.6353967953711162E-15,
+      "branches_numerically_distinct": false
+    }
+  ],
+  "critical_early_stop": {
+    "eligible": true,
+    "evaluated": true,
+    "triggered": false,
+    "after_case_id": "fixed_20deg_e",
+    "completed_case_count": 5,
+    "completed_metric_count": 5,
+    "remaining_case_count_at_evaluation": 31,
+    "unexecuted_case_count": 0,
+    "unexecuted_case_ids": [],
+    "checks": {
+      "prefix_complete": true,
+      "fixed_5deg_mean_error": true,
+      "fixed_fit": true,
+      "ideal_rmse": true
+    },
+    "aggregate": {
+      "required_case_ids": [
+        "baseline_legacy_equivalence",
+        "fixed_00deg_e",
+        "fixed_05deg_e",
+        "fixed_10deg_e",
+        "fixed_20deg_e"
+      ],
+      "observed_case_ids": [
+        "baseline_legacy_equivalence",
+        "fixed_00deg_e",
+        "fixed_05deg_e",
+        "fixed_10deg_e",
+        "fixed_20deg_e"
+      ],
+      "fixed_5deg_mean_error_e_deg": -0.2565960235079659,
+      "fixed_fit_slope": 0.99934533169916018,
+      "fixed_fit_intercept_e_deg": -0.25491047374429765,
+      "ideal_case_count": 3,
+      "ideal_failed_case_ids": [],
+      "predictor_floor_reference": {
+        "available": true,
+        "source_case_id": "fixed_00deg_e",
+        "condition": "zero injected angle error; configured noise disabled",
+        "euler_rmse_e_rad": 0.013154940443855064,
+        "euler_rmse_e_deg": 0.75372256717884911,
+        "rk2_rmse_e_rad": 0.011195669633173488,
+        "rk2_rmse_e_deg": 0.64146461880361938,
+        "heun_rmse_e_rad": 0.011195669633173493,
+        "heun_rmse_e_deg": 0.64146461880361971
+      }
+    },
+    "reason": "Critical fixed-prefix acceptance passed; execution continued."
+  },
+  "completed_at": "2026-08-18T13:58:42.190+08:00",
+  "case_count_returned": 36,
+  "reports": {
+    "schema_version": "stage1-report-bundle-v1",
+    "out_dir": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1",
+    "report_dir": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\reports",
+    "generation_status": "COMPLETE",
+    "offline_evaluation_only": true,
+    "mathematical_gate_modified": false,
+    "case_count_discovered": 36,
+    "metrics_available": true,
+    "primary_case_id": "periodic_combined",
+    "artifacts": [
+      {
+        "name": "timing_timeline",
+        "available": true,
+        "reason": "",
+        "source_case_id": "periodic_combined",
+        "files": [
+          "timing_timeline.png",
+          "timing_timeline.pdf"
+        ]
+      },
+      {
+        "name": "time_alignment_report",
+        "available": true,
+        "reason": "",
+        "source_case_id": "periodic_combined",
+        "files": [
+          "time_alignment_report.csv",
+          "time_alignment_report.json"
+        ]
+      },
+      {
+        "name": "yd_yq_trajectory",
+        "available": true,
+        "reason": "",
+        "source_case_id": "periodic_combined",
+        "files": [
+          "yd_yq_trajectory.png",
+          "yd_yq_trajectory.pdf"
+        ]
+      },
+      {
+        "name": "residual_amplitude_vs_speed",
+        "available": true,
+        "reason": "",
+        "source_case_id": "",
+        "files": [
+          "residual_amplitude_vs_speed.png",
+          "residual_amplitude_vs_speed.pdf"
+        ]
+      },
+      {
+        "name": "condition_consistency",
+        "available": true,
+        "reason": "",
+        "source_case_id": "",
+        "files": [
+          "condition_consistency.png",
+          "condition_consistency.pdf"
+        ]
+      },
+      {
+        "name": "error_budget",
+        "available": true,
+        "reason": "",
+        "source_case_id": "periodic_combined",
+        "files": [
+          "error_budget.csv",
+          "error_budget.json"
+        ]
+      },
+      {
+        "name": "reference_lut",
+        "available": true,
+        "reason": "",
+        "source_case_id": "periodic_combined",
+        "files": [
+          "reference_lut.csv",
+          "reference_lut.mat",
+          "reference_lut.png",
+          "reference_lut.pdf"
+        ]
+      },
+      {
+        "name": "gate_failures",
+        "available": true,
+        "reason": "",
+        "source_case_id": "",
+        "files": [
+          "gate_failures.json",
+          "gate_failures.txt"
+        ]
+      }
+    ]
+  },
+  "final_status": "PASS"
+}

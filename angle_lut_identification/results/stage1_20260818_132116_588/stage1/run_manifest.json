@@ -1,0 +1,444 @@
+{
+  "schema_version": "angle-lut-stage1-run-v1",
+  "run_id": "stage1_20260818_132116_588",
+  "stage": 1,
+  "created_at": "2026-08-18T13:21:16.616+08:00",
+  "project_root": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification",
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132116_588\\stage1",
+  "matlab_version": "24.2.0.3070828 (R2024b) Update 7",
+  "release": "2024b",
+  "products": [
+    "Audio Toolbox",
+    "C2000 Microcontroller Blockset",
+    "Control System Toolbox",
+    "DSP HDL Toolbox",
+    "DSP System Toolbox",
+    "Database Toolbox",
+    "Deep Learning HDL Toolbox",
+    "Deep Learning Toolbox",
+    "Embedded Coder",
+    "Fixed-Point Designer",
+    "Fuzzy Logic Toolbox",
+    "GPU Coder",
+    "Global Optimization Toolbox",
+    "HDL Coder",
+    "HDL Verifier",
+    "Industrial Communication Toolbox",
+    "Instrument Control Toolbox",
+    "MATLAB",
+    "MATLAB Coder",
+    "MATLAB Compiler",
+    "MATLAB Compiler SDK",
+    "MATLAB Report Generator",
+    "MATLAB Test",
+    "Model Predictive Control Toolbox",
+    "Model-Based Calibration Toolbox",
+    "Motor Control Blockset",
+    "Optimization Toolbox",
+    "Parallel Computing Toolbox",
+    "ROS Toolbox",
+    "Robotics System Toolbox",
+    "Robust Control Toolbox",
+    "Signal Integrity Toolbox",
+    "Signal Processing Toolbox",
+    "Simscape",
+    "Simscape Electrical",
+    "Simulink",
+    "Simulink Check",
+    "Simulink Code Inspector",
+    "Simulink Coder",
+    "Simulink Compiler",
+    "Simulink Control Design",
+    "Simulink Coverage",
+    "Simulink Design Optimization",
+    "Simulink Design Verifier",
+    "Simulink Desktop Real-Time",
+    "Simulink Fault Analyzer",
+    "Simulink PLC Coder",
+    "Simulink Real-Time",
+    "Simulink Report Generator",
+    "Simulink Test",
+    "Statistics and Machine Learning Toolbox",
+    "Symbolic Math Toolbox",
+    "UAV Toolbox"
+  ],
+  "random_seed": 20260818,
+  "source_model": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\FOC_fw_hifi_v1_0709backup.slx",
+  "harness_model": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\models\\angle_lut_harness.slx",
+  "theory_pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\..\\..\\..\\..\\Download\\Angle_LUT_Theory_Review_v1.1.pdf",
+  "implementation_spec": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\..\\..\\..\\..\\Download\\Codex_Simulink_Angle_LUT_Implementation_Spec.docx",
+  "options": {
+    "case_ids": "nonideal_combined",
+    "stop_time_override_s": 0.05,
+    "run_tests": false,
+    "simulation_mode": "rapid-accelerator",
+    "rebuild_harness": false,
+    "stop_on_case_error": true,
+    "max_cases": null
+  },
+  "formula_contract": "Angle_LUT_Theory_Review_v1.1 E01-E09",
+  "lut_learning_enabled": false,
+  "control_compensation_e_rad": 0,
+  "voltage_ab_contract": {
+    "deployment_source": "reconstructed_duty_vdc",
+    "plant_source": "plant_applied_evaluation_only",
+    "case_selector_field": "voltage_source",
+    "gate_source": "reconstructed_deployment_only",
+    "truth_policy": "branch scoring only; never estimator or gates"
+  },
+  "stage0_result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage0_20260818_105854_016\\stage0",
+  "source_model_sha256_before": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "file_inventory": {
+    "csv_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132116_588\\stage1\\file_inventory.csv",
+    "json_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132116_588\\stage1\\file_inventory.json",
+    "entry_count": 53,
+    "csv_sha256": "ed3dc0b8df1630cf80cfe9d80a7b0975782590686c44f91871e5b1749e02bd78"
+  },
+  "environment": {
+    "schema_version": "angle-lut-environment-v1",
+    "collected_at_utc": "2026-08-18T05:21:25.295Z",
+    "matlab": {
+      "Name": "MATLAB",
+      "Version": "24.2.0.3070828 (R2024b) Update 7",
+      "Release": "2024b"
+    },
+    "products": [
+      {
+        "Name": "Audio Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "C2000 Microcontroller Blockset",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "MATLAB Test",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Fault Analyzer",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "24.2",
+        "Release": "(R2024b)"
+      }
+    ],
+    "model": {
+      "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\FOC_fw_hifi_v1_0709backup.slx",
+      "name": "FOC_fw_hifi_v1_0709backup",
+      "sha256": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+      "loaded_before_call": false,
+      "solver_type": "Variable-step",
+      "solver": "VariableStepAuto",
+      "stop_time_expression": "10.0",
+      "stop_time_s": 10
+    },
+    "powergui": {
+      "present": true,
+      "count": 1,
+      "blocks": {
+        "block_path": "FOC_fw_hifi_v1_0709backup/powergui1",
+        "mode": "Discrete",
+        "sample_time_expression": "5e-6",
+        "sample_time_s": 5E-6
+      }
+    },
+    "timing": {
+      "Ts_base_s": 5E-6,
+      "fpwm_Hz": 20000,
+      "T_ident_s": 5E-5
+    }
+  },
+  "case_count_defined": 36,
+  "case_count_selected": 1,
+  "case_ids": "nonideal_combined",
+  "contractual_stop_times": false,
+  "tests": {
+    "enabled": false,
+    "skipped": true,
+    "count": 0,
+    "passed": 0,
+    "failed": 0,
+    "incomplete": 0
+  },
+  "source_model_sha256_after": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "predictor_floor_reference": {
+    "available": false,
+    "source_case_id": "fixed_00deg_e",
+    "condition": "zero injected angle error; configured noise disabled",
+    "euler_rmse_e_rad": null,
+    "euler_rmse_e_deg": null,
+    "rk2_rmse_e_rad": null,
+    "rk2_rmse_e_deg": null,
+    "heun_rmse_e_rad": null,
+    "heun_rmse_e_deg": null
+  },
+  "harness_model_sha256": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "case_count_completed": 0,
+  "case_count_executed": 1,
+  "case_implementations": [],
+  "voltage_ab_cases": [],
+  "critical_early_stop": {
+    "eligible": false,
+    "evaluated": false,
+    "triggered": false,
+    "after_case_id": "",
+    "completed_case_count": 0,
+    "completed_metric_count": 0,
+    "remaining_case_count_at_evaluation": 0,
+    "unexecuted_case_count": 0,
+    "unexecuted_case_ids": [],
+    "checks": {},
+    "aggregate": {},
+    "reason": "Not eligible or not yet evaluated."
+  },
+  "final_status": "FAIL",
+  "completed_at": "2026-08-18T13:22:19.136+08:00",
+  "case_count_returned": 1
+}

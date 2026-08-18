@@ -1,0 +1,382 @@
+{
+  "run_id": "stage1_20260818_134403_214",
+  "final_status": "PASS",
+  "cases": [
+    {
+      "case_id": "baseline_legacy_equivalence",
+      "status": "PASS",
+      "elapsed_s": 24.5445475,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\baseline_legacy_equivalence",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 73.237110429713681
+    },
+    {
+      "case_id": "fixed_00deg_e",
+      "status": "PASS",
+      "elapsed_s": 18.775375,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\fixed_00deg_e",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.75372256717884911
+    },
+    {
+      "case_id": "fixed_05deg_e",
+      "status": "PASS",
+      "elapsed_s": 32.8777444,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\fixed_05deg_e",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.75055371495414014
+    },
+    {
+      "case_id": "fixed_10deg_e",
+      "status": "PASS",
+      "elapsed_s": 27.8806161,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\fixed_10deg_e",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.74756449006967951
+    },
+    {
+      "case_id": "fixed_20deg_e",
+      "status": "PASS",
+      "elapsed_s": 27.9062241,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\fixed_20deg_e",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.76286315469125232
+    },
+    {
+      "case_id": "periodic_constant",
+      "status": "PASS",
+      "elapsed_s": 27.1487045,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\periodic_constant",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.75025568145536192
+    },
+    {
+      "case_id": "periodic_1x",
+      "status": "PASS",
+      "elapsed_s": 27.605548,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\periodic_1x",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.77267054301915372
+    },
+    {
+      "case_id": "periodic_2x",
+      "status": "PASS",
+      "elapsed_s": 26.9257611,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\periodic_2x",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.75103767853478287
+    },
+    {
+      "case_id": "periodic_combined",
+      "status": "PASS",
+      "elapsed_s": 26.8482072,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\periodic_combined",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "speed_-20radps_m",
+      "status": "PASS",
+      "elapsed_s": 15.7083807,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_-20radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.37275385154013368
+    },
+    {
+      "case_id": "speed_-10radps_m",
+      "status": "PASS",
+      "elapsed_s": 19.39488,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_-10radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.70188214944785454
+    },
+    {
+      "case_id": "speed_-05radps_m",
+      "status": "PASS",
+      "elapsed_s": 31.9288674,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_-05radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.2938732672594515
+    },
+    {
+      "case_id": "speed_+05radps_m",
+      "status": "PASS",
+      "elapsed_s": 30.4865678,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_+05radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 2.1164782951415235
+    },
+    {
+      "case_id": "speed_+10radps_m",
+      "status": "PASS",
+      "elapsed_s": 17.8039284,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_+10radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "speed_+20radps_m",
+      "status": "PASS",
+      "elapsed_s": 15.9832361,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\speed_+20radps_m",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.47775555042823981
+    },
+    {
+      "case_id": "load_0Nm",
+      "status": "PASS",
+      "elapsed_s": 18.0559257,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\load_0Nm",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.6005672619185497
+    },
+    {
+      "case_id": "load_1Nm",
+      "status": "PASS",
+      "elapsed_s": 17.8255555,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\load_1Nm",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "load_2Nm",
+      "status": "PASS",
+      "elapsed_s": 18.6703707,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\load_2Nm",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.1924084375180191
+    },
+    {
+      "case_id": "mismatch_Rs_-10percent",
+      "status": "PASS",
+      "elapsed_s": 17.8549395,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_Rs_-10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.2922858615947879
+    },
+    {
+      "case_id": "mismatch_Rs_+10percent",
+      "status": "PASS",
+      "elapsed_s": 17.6816877,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_Rs_+10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.781607122582614
+    },
+    {
+      "case_id": "mismatch_Ls_-10percent",
+      "status": "PASS",
+      "elapsed_s": 17.5458727,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_Ls_-10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.7889948197834855
+    },
+    {
+      "case_id": "mismatch_Ls_+10percent",
+      "status": "PASS",
+      "elapsed_s": 17.8842726,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_Ls_+10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.0834848635648926
+    },
+    {
+      "case_id": "mismatch_psi_-10percent",
+      "status": "PASS",
+      "elapsed_s": 17.3936463,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_psi_-10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "mismatch_psi_+10percent",
+      "status": "PASS",
+      "elapsed_s": 17.6809451,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\mismatch_psi_+10percent",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "angle_sync_20kHz",
+      "status": "PASS",
+      "elapsed_s": 17.7805219,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\angle_sync_20kHz",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "angle_timestamped_1kHz",
+      "status": "PASS",
+      "elapsed_s": 17.3037739,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\angle_timestamped_1kHz",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82513192965697468
+    },
+    {
+      "case_id": "nonideal_angle_noise",
+      "status": "PASS",
+      "elapsed_s": 17.6409458,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_angle_noise",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.818342192966017
+    },
+    {
+      "case_id": "nonideal_current_noise",
+      "status": "PASS",
+      "elapsed_s": 17.8232121,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_current_noise",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.956252877305106
+    },
+    {
+      "case_id": "nonideal_deadtime",
+      "status": "PASS",
+      "elapsed_s": 17.8580892,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_deadtime",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.8507444824293231
+    },
+    {
+      "case_id": "nonideal_min_pulse",
+      "status": "PASS",
+      "elapsed_s": 17.7589172,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_min_pulse",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "nonideal_voltage_drop",
+      "status": "PASS",
+      "elapsed_s": 17.7487978,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_voltage_drop",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.7064362430552793
+    },
+    {
+      "case_id": "nonideal_delay_5us",
+      "status": "PASS",
+      "elapsed_s": 17.6503242,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_delay_5us",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.73587510439241044
+    },
+    {
+      "case_id": "nonideal_delay_50us",
+      "status": "PASS",
+      "elapsed_s": 17.8930311,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_delay_50us",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82256331626202384
+    },
+    {
+      "case_id": "nonideal_combined",
+      "status": "PASS",
+      "elapsed_s": 17.6477851,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\nonideal_combined",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 1.6146361672528211
+    },
+    {
+      "case_id": "voltage_ab_reconstructed",
+      "status": "PASS",
+      "elapsed_s": 17.6071832,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\voltage_ab_reconstructed",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "reconstructed",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025911
+    },
+    {
+      "case_id": "voltage_ab_plant_evaluation",
+      "status": "PASS",
+      "elapsed_s": 17.7110373,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1\\cases\\voltage_ab_plant_evaluation",
+      "message": "Simulation and analysis completed.",
+      "voltage_ab_selected_source": "plant_evaluation",
+      "voltage_ab_selected_branch_rmse_e_deg": 0.82243979247025956
+    }
+  ],
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1",
+  "message": "Full Stage-1 matrix and all acceptance gates passed.",
+  "critical_early_stop": {
+    "eligible": true,
+    "evaluated": true,
+    "triggered": false,
+    "after_case_id": "fixed_20deg_e",
+    "completed_case_count": 5,
+    "completed_metric_count": 5,
+    "remaining_case_count_at_evaluation": 31,
+    "unexecuted_case_count": 0,
+    "unexecuted_case_ids": [],
+    "checks": {
+      "prefix_complete": true,
+      "fixed_5deg_mean_error": true,
+      "fixed_fit": true,
+      "ideal_rmse": true
+    },
+    "aggregate": {
+      "required_case_ids": [
+        "baseline_legacy_equivalence",
+        "fixed_00deg_e",
+        "fixed_05deg_e",
+        "fixed_10deg_e",
+        "fixed_20deg_e"
+      ],
+      "observed_case_ids": [
+        "baseline_legacy_equivalence",
+        "fixed_00deg_e",
+        "fixed_05deg_e",
+        "fixed_10deg_e",
+        "fixed_20deg_e"
+      ],
+      "fixed_5deg_mean_error_e_deg": -0.2565960235079659,
+      "fixed_fit_slope": 0.99934533169916018,
+      "fixed_fit_intercept_e_deg": -0.25491047374429765,
+      "ideal_case_count": 3,
+      "ideal_failed_case_ids": [],
+      "predictor_floor_reference": {
+        "available": true,
+        "source_case_id": "fixed_00deg_e",
+        "condition": "zero injected angle error; configured noise disabled",
+        "euler_rmse_e_rad": 0.013154940443855064,
+        "euler_rmse_e_deg": 0.75372256717884911,
+        "rk2_rmse_e_rad": 0.011195669633173488,
+        "rk2_rmse_e_deg": 0.64146461880361938,
+        "heun_rmse_e_rad": 0.011195669633173493,
+        "heun_rmse_e_deg": 0.64146461880361971
+      }
+    },
+    "reason": "Critical fixed-prefix acceptance passed; execution continued."
+  }
+}

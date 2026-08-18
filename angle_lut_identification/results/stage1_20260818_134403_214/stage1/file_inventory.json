@@ -1,0 +1,332 @@
+[
+  {
+    "relative_path": "config/bus_definitions.m",
+    "size_bytes": 4615,
+    "mtime_utc": "2026-08-18T05:03:03.000Z",
+    "sha256": "bb56e6527bc8a63a9da1c9f05f8b7ba87cad7d68534c0bd56d4409c5b28b8821"
+  },
+  {
+    "relative_path": "config/case_matrix.m",
+    "size_bytes": 6850,
+    "mtime_utc": "2026-08-18T04:33:23.000Z",
+    "sha256": "a71834ac43293355447bad75d37abe4b1a791c39571cfd2e2181e0e752a2a2b9"
+  },
+  {
+    "relative_path": "config/default_config.m",
+    "size_bytes": 6278,
+    "mtime_utc": "2026-08-18T04:12:48.000Z",
+    "sha256": "37c06562d0867b824a1c0e2c5b11d548849f55dfb8c3171b8ae83ef9a00653a6"
+  },
+  {
+    "relative_path": "config/signal_map.m",
+    "size_bytes": 3511,
+    "mtime_utc": "2026-08-18T05:03:03.000Z",
+    "sha256": "e587c6a6fad313afb84a1ebce9366171a70e250be2b90785af4dfcb8961d6aef"
+  },
+  {
+    "relative_path": "config/stage0_artifact_contract.m",
+    "size_bytes": 1441,
+    "mtime_utc": "2026-08-18T05:20:45.000Z",
+    "sha256": "1fe8216ab9b4389b5b4b368ba1588fed357e04fe55fd302b3c9b689ba5578d88"
+  },
+  {
+    "relative_path": "config/stage_gates.m",
+    "size_bytes": 1395,
+    "mtime_utc": "2026-08-18T05:20:04.000Z",
+    "sha256": "989b778bb488967445f96cd3631d04b5d02779e9a5736d2465eea00561e85b2d"
+  },
+  {
+    "relative_path": "config/timing_contract.m",
+    "size_bytes": 1807,
+    "mtime_utc": "2026-08-18T05:16:30.000Z",
+    "sha256": "61b7516c849fab76f86e6c3814eed2d8a6bb559397788a0b885b52fdbdc88aa9"
+  },
+  {
+    "relative_path": "docs/decisions.md",
+    "size_bytes": 3221,
+    "mtime_utc": "2026-08-18T05:14:34.000Z",
+    "sha256": "913181eec033f0e246abb1dce6b5cc58c757d8c34567e56401340cc40ae09282"
+  },
+  {
+    "relative_path": "docs/formula_block_map.md",
+    "size_bytes": 2417,
+    "mtime_utc": "2026-08-18T05:14:34.000Z",
+    "sha256": "57a0f23b770e89e3d4f2deb46a07641d17d2fb3d7e926ba65582c85bf65e753a"
+  },
+  {
+    "relative_path": "docs/preflight_report.md",
+    "size_bytes": 2233,
+    "mtime_utc": "2026-08-18T02:51:50.000Z",
+    "sha256": "e2488111a4a14b34dafc9b2f3bafe59cca2800b6fb416b60d069413cc1f4e274"
+  },
+  {
+    "relative_path": "models/angle_lut_harness.slx",
+    "size_bytes": 261201,
+    "mtime_utc": "2026-08-18T05:18:32.000Z",
+    "sha256": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a"
+  },
+  {
+    "relative_path": "models/build_angle_lut_harness.m",
+    "size_bytes": 38767,
+    "mtime_utc": "2026-08-18T05:16:15.000Z",
+    "sha256": "19c2fccdd38e3c36069881def6e94df96b6044863ea1486e3fed7ea326821717"
+  },
+  {
+    "relative_path": "README_CODEX.md",
+    "size_bytes": 1039,
+    "mtime_utc": "2026-08-18T05:02:41.000Z",
+    "sha256": "2f2e01797a5a24ba2d5a9bf7362216c0428c2eeb184435808a90ce58954f2417"
+  },
+  {
+    "relative_path": "run_stage0.m",
+    "size_bytes": 5426,
+    "mtime_utc": "2026-08-18T05:19:29.000Z",
+    "sha256": "d78025208f8674719c23c00b6f2a427cb360bf34c020f850862419dccd68f416"
+  },
+  {
+    "relative_path": "run_stage1.m",
+    "size_bytes": 41731,
+    "mtime_utc": "2026-08-18T05:37:38.000Z",
+    "sha256": "e53722db2c52933cef7ef91ddc40cc7f812614ded5796be872fc29d64a100a02"
+  },
+  {
+    "relative_path": "scripts/analyze_stage1_case.m",
+    "size_bytes": 27760,
+    "mtime_utc": "2026-08-18T05:15:53.000Z",
+    "sha256": "05c80ae2b842ce8f5da29ac9ba729732f79ba78e9ee2a5fe31194b65f72acbf7"
+  },
+  {
+    "relative_path": "scripts/apply_predictor_floor_reference.m",
+    "size_bytes": 2046,
+    "mtime_utc": "2026-08-18T04:55:24.000Z",
+    "sha256": "f36a7f8f077971e1a3dafff42525c0e0aec543bc48e189b9dd58901cc8d472bf"
+  },
+  {
+    "relative_path": "scripts/check_legacy_equivalence.m",
+    "size_bytes": 13814,
+    "mtime_utc": "2026-08-18T03:41:04.000Z",
+    "sha256": "f658b6e8ca07b733df26f8edcfd4dd9dda12dceccac388efc201d3f3b9de7f18"
+  },
+  {
+    "relative_path": "scripts/circular_metrics.m",
+    "size_bytes": 858,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "dc31d177e8a2624dad5286e58169ad143e80d813d4b09d96d9800f5ba5d54cc0"
+  },
+  {
+    "relative_path": "scripts/collect_environment_manifest.m",
+    "size_bytes": 5123,
+    "mtime_utc": "2026-08-18T05:17:43.000Z",
+    "sha256": "b733e86f76966e333483babdbda0018b2080d13c89f311c41047019f2cfaf9f9"
+  },
+  {
+    "relative_path": "scripts/collect_file_inventory.m",
+    "size_bytes": 2613,
+    "mtime_utc": "2026-08-18T05:17:43.000Z",
+    "sha256": "c6f202d579fd821a2aa886b0540cbd3b2c9ca2c09b1232d0aeecb19059894ad2"
+  },
+  {
+    "relative_path": "scripts/evaluate_fixed_prefix_acceptance.m",
+    "size_bytes": 3052,
+    "mtime_utc": "2026-08-18T04:55:13.000Z",
+    "sha256": "9d612dffd78f8d295bb834e248cd51a3b3145606dcfe626b9d8f27267029a6e8"
+  },
+  {
+    "relative_path": "scripts/evaluate_voltage_ab.m",
+    "size_bytes": 10840,
+    "mtime_utc": "2026-08-18T05:25:55.000Z",
+    "sha256": "da8c5b575e069e42fe787b2a08e203715a9f687c2bdd4f7638d96c7505ea4da5"
+  },
+  {
+    "relative_path": "scripts/file_sha256.m",
+    "size_bytes": 1076,
+    "mtime_utc": "2026-08-18T02:52:34.000Z",
+    "sha256": "243ec10346e80dfa356f68a614b7caa158aa741a872e819cb2fe21b1754043ed"
+  },
+  {
+    "relative_path": "scripts/generate_stage1_reports.m",
+    "size_bytes": 38358,
+    "mtime_utc": "2026-08-18T05:35:27.000Z",
+    "sha256": "8f48e561d8276e4d392a6125836d24439db6c5f2a5950c1b3ed8178e1a1bfab5"
+  },
+  {
+    "relative_path": "scripts/sample_logged_signal.m",
+    "size_bytes": 1649,
+    "mtime_utc": "2026-08-18T03:26:34.000Z",
+    "sha256": "d2ffa189d5b1371020577b5824468e6bbebf2c9bb6495cc4f1baa00d6ab3ca45"
+  },
+  {
+    "relative_path": "scripts/save_stage1_case_plot.m",
+    "size_bytes": 926,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "809de7e109a727907beaeaa06483eb0b4f59d5f53d89486a0ae4777bcac7095b"
+  },
+  {
+    "relative_path": "scripts/write_json_file.m",
+    "size_bytes": 327,
+    "mtime_utc": "2026-08-18T02:51:50.000Z",
+    "sha256": "f6d9af46d1324541f1c7d9ded7eb3350ef1aa2f0e2a31414939d8ab9bf5efed1"
+  },
+  {
+    "relative_path": "setup_project.m",
+    "size_bytes": 1546,
+    "mtime_utc": "2026-08-18T02:57:20.000Z",
+    "sha256": "58bc4ffbdc2a426faf7626ade4ec630a76adc52409a267a6346f7098842998ad"
+  },
+  {
+    "relative_path": "src/+anglelut/aggregate_reference_lut.m",
+    "size_bytes": 2215,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "928822c8e49693731e64a7720ce5a9e5aef92c908f886a4098619de1b7ac8173"
+  },
+  {
+    "relative_path": "src/+anglelut/clarke_abc.m",
+    "size_bytes": 371,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "19089e593483570da2876f3fbd23866d64105160f6bad9274b8a89366b9ae047"
+  },
+  {
+    "relative_path": "src/+anglelut/direction_hysteresis.m",
+    "size_bytes": 1533,
+    "mtime_utc": "2026-08-18T02:59:31.000Z",
+    "sha256": "2de5c0843a71d599552ad4eee976b8483a01f48fde6bd7642d422380155727c1"
+  },
+  {
+    "relative_path": "src/+anglelut/encoder_forward_model.m",
+    "size_bytes": 6134,
+    "mtime_utc": "2026-08-18T03:01:33.000Z",
+    "sha256": "4d44d566fb6ad40619edcb8bfb0eeb6da533dc09b700914cfca3713d2e486d4a"
+  },
+  {
+    "relative_path": "src/+anglelut/estimate_speed_step.m",
+    "size_bytes": 3385,
+    "mtime_utc": "2026-08-18T02:59:31.000Z",
+    "sha256": "7819a276277011ee78d658407438523d491f2dc61a29bc709bff3b261af8c964"
+  },
+  {
+    "relative_path": "src/+anglelut/extrapolate_angle.m",
+    "size_bytes": 1062,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "9a496a90a703ceb48be74b792c36b4c6935fe9d562ac57a21ea2ed5bb6aa0962"
+  },
+  {
+    "relative_path": "src/+anglelut/init_speed_estimator_state.m",
+    "size_bytes": 286,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "f7a5c1762cd8cb4b246bfca227091f60d1b7a05b4a91aa145ea7c31c9950579e"
+  },
+  {
+    "relative_path": "src/+anglelut/interval_average.m",
+    "size_bytes": 1798,
+    "mtime_utc": "2026-08-18T04:54:36.000Z",
+    "sha256": "7578f23c8d0076c1ec4a5c5a1d65b9202905ac4e6132c0eb3c58c481f67ef89b"
+  },
+  {
+    "relative_path": "src/+anglelut/park_alphabeta.m",
+    "size_bytes": 442,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "13d9b8873b39a70e4a1b224729cb67c24889dea26a8853eef34f10a39f8addf5"
+  },
+  {
+    "relative_path": "src/+anglelut/periodic_lut_interp.m",
+    "size_bytes": 629,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "af1d3201858f5ed74c843d6609cc14a4f41f358c66a431bbc4b7b7d886f481ac"
+  },
+  {
+    "relative_path": "src/+anglelut/physical_residual.m",
+    "size_bytes": 6640,
+    "mtime_utc": "2026-08-18T04:23:47.000Z",
+    "sha256": "5984f7d82737db5276d5ea94a67a8f6fcd36263f9d485a1f163e97baf96da0a4"
+  },
+  {
+    "relative_path": "src/+anglelut/quality_gates.m",
+    "size_bytes": 6180,
+    "mtime_utc": "2026-08-18T02:59:31.000Z",
+    "sha256": "6f4e67aff64e33c8c2c5746fc33853507207be86b3ecc754a829ec0e99d8b2a4"
+  },
+  {
+    "relative_path": "src/+anglelut/reconstruct_voltage.m",
+    "size_bytes": 936,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "ceaf192c138a49060e474f74405b529eb649c1dc64dc695bf945803a6be7d963"
+  },
+  {
+    "relative_path": "src/+anglelut/wrap_to_2pi.m",
+    "size_bytes": 538,
+    "mtime_utc": "2026-08-18T03:00:35.000Z",
+    "sha256": "2d156d0d75e969c1f0eb0eebc2f7368ae5b4a0686156e355497968fe23bf271c"
+  },
+  {
+    "relative_path": "src/+anglelut/wrap_to_pi.m",
+    "size_bytes": 279,
+    "mtime_utc": "2026-08-18T02:54:43.000Z",
+    "sha256": "09957461a2678bc4263e57c69a07f7ea52020c9d6391c2c297c2c31b8db601fc"
+  },
+  {
+    "relative_path": "tests/testAuditCollectors.m",
+    "size_bytes": 3396,
+    "mtime_utc": "2026-08-18T05:17:43.000Z",
+    "sha256": "fd6ced55fbfdd8d96de262f5b9daff7e80d0a59f2b156f5872c49c8132c41aaf"
+  },
+  {
+    "relative_path": "tests/testDirectionAndTiming.m",
+    "size_bytes": 4875,
+    "mtime_utc": "2026-08-18T04:57:21.000Z",
+    "sha256": "49dd4733f213c14bd7f30fb68e4c6243d5379011c28d586ed4ebb2ab12912158"
+  },
+  {
+    "relative_path": "tests/testEncoderForwardModel.m",
+    "size_bytes": 3232,
+    "mtime_utc": "2026-08-18T03:00:43.000Z",
+    "sha256": "35b83ec5fa130d8328cd4f39e161f223cecff5ef443d298b18dfc755c2c5956c"
+  },
+  {
+    "relative_path": "tests/testFixedPrefixAcceptance.m",
+    "size_bytes": 3794,
+    "mtime_utc": "2026-08-18T04:55:13.000Z",
+    "sha256": "e97a524b4864b6b1d0e18f8312f9452faaf23ebd444d673322843ba95ce437d8"
+  },
+  {
+    "relative_path": "tests/testHarnessIntervalTiming.m",
+    "size_bytes": 3295,
+    "mtime_utc": "2026-08-18T05:31:23.000Z",
+    "sha256": "807322a525e913d2c037d5d42c1e952d66f461f6c9608d922e8ea685d61e053e"
+  },
+  {
+    "relative_path": "tests/testLegacyEquivalence.m",
+    "size_bytes": 1679,
+    "mtime_utc": "2026-08-18T03:41:04.000Z",
+    "sha256": "9396a9fc8d816c2505acc2370394e26c82453617c5ac085b517ccfdc40ab23f3"
+  },
+  {
+    "relative_path": "tests/testNoTruthLeak.m",
+    "size_bytes": 7902,
+    "mtime_utc": "2026-08-18T05:08:36.000Z",
+    "sha256": "2aa8404e2c8fb0336f0f86bff8f2bd06e1539aafb28ffc19afd93832f7b84d64"
+  },
+  {
+    "relative_path": "tests/testStage1Configuration.m",
+    "size_bytes": 8090,
+    "mtime_utc": "2026-08-18T05:20:32.000Z",
+    "sha256": "e0169ae19b24542af89679c5e5336acabfebf8d83b7c4000c6ad77826ae2cbe2"
+  },
+  {
+    "relative_path": "tests/testStage1MathContracts.m",
+    "size_bytes": 5094,
+    "mtime_utc": "2026-08-18T04:24:10.000Z",
+    "sha256": "cc62b66278aa5dc2fa2a054c2605922599ac6ade3ea808943d2dcc9afa85d805"
+  },
+  {
+    "relative_path": "tests/testStage1Reports.m",
+    "size_bytes": 8677,
+    "mtime_utc": "2026-08-18T05:41:45.000Z",
+    "sha256": "d18483534778442f893ce7c4452ee4079d1be3aff2ea79d87f994f2534e78507"
+  },
+  {
+    "relative_path": "tests/testVoltageABEvaluator.m",
+    "size_bytes": 10620,
+    "mtime_utc": "2026-08-18T05:26:34.000Z",
+    "sha256": "1170e99a8b663080c469be3502bb85ce1e41b983912313dc2676b24cbfd3c5ec"
+  }
+]

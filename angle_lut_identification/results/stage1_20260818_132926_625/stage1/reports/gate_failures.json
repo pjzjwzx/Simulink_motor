@@ -1,0 +1,65 @@
+{
+  "schema_version": "stage1-gate-failures-v1",
+  "available": true,
+  "reason": "",
+  "gate_status": "BLOCKED",
+  "failure_count": 11,
+  "failures": [
+    {
+      "path": "checks.complete_case_matrix",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.case_matrix_identity_selected",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.unit_and_structure_tests",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.full_acceptance_evaluated",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.fixed_5deg_mean_error",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.fixed_fit",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.ideal_rmse",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.forward_reverse_bias",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.ideal_voltage_reconstruction",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.periodic_minimum_cycles",
+      "value": false,
+      "message": "Persisted gate check is false."
+    },
+    {
+      "path": "checks.case_matrix_identity",
+      "value": false,
+      "message": "Persisted gate check is false."
+    }
+  ],
+  "gate_modified": false
+}

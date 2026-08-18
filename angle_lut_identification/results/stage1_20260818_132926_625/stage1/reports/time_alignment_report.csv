@@ -1,0 +1,11 @@
+event,scope,expected_s,observed_s,error_s,tolerance_s,within_tolerance,available,source_case_id,note
+duty_effective_start,contract,0,0,0,2.5e-06,1,1,nonideal_combined,configured timing contract
+adc_boundary_sample,contract,0,0,0,2.5e-06,1,1,nonideal_combined,configured timing contract
+encoder_boundary_sample,contract,0,0,0,2.5e-06,1,1,nonideal_combined,configured timing contract
+identification_event,contract,5e-06,5e-06,0,2.5e-06,1,1,nonideal_combined,configured timing contract
+next_pwm_boundary,contract,5e-05,5e-05,0,2.5e-06,1,1,nonideal_combined,configured timing contract
+identification_interval,measured,5e-05,4.99999999999945e-05,-5.50910228894197e-18,2.5e-06,1,1,nonideal_combined,median over persisted IdentificationBus records
+availability_latency,measured,1e-05,9.99999999995449e-06,-4.55110802559736e-17,2.5e-06,1,1,nonideal_combined,median over persisted IdentificationBus records
+current_timestamp_offset,measured,0,0,0,2.5e-06,1,1,nonideal_combined,median over persisted IdentificationBus records
+voltage_timestamp_offset,measured,0,0,0,2.5e-06,1,1,nonideal_combined,median over persisted IdentificationBus records
+angle_timestamp_offset,measured,0,0,0,2.5e-06,1,1,nonideal_combined,median over persisted IdentificationBus records

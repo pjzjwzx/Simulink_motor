@@ -1,0 +1,29 @@
+{
+  "run_id": "stage1_20260818_132116_588",
+  "final_status": "FAIL",
+  "cases": {
+    "case_id": "nonideal_combined",
+    "status": "FAIL",
+    "elapsed_s": 31.1872063,
+    "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132116_588\\stage1\\cases\\nonideal_combined",
+    "message": "IdentificationBus.duty_abc must be finite.",
+    "voltage_ab_selected_source": "",
+    "voltage_ab_selected_branch_rmse_e_deg": null
+  },
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132116_588\\stage1",
+  "message": "IdentificationBus.duty_abc must be finite.",
+  "critical_early_stop": {
+    "eligible": false,
+    "evaluated": false,
+    "triggered": false,
+    "after_case_id": "",
+    "completed_case_count": 0,
+    "completed_metric_count": 0,
+    "remaining_case_count_at_evaluation": 0,
+    "unexecuted_case_count": 0,
+    "unexecuted_case_ids": [],
+    "checks": {},
+    "aggregate": {},
+    "reason": "Not eligible or not yet evaluated."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "FAIL",
+  "scope": "BOUNDED_SMOKE",
+  "checks": {
+    "stage0_pass": true,
+    "harness_builder_present": true,
+    "harness_present": true,
+    "unit_and_structure_tests": true,
+    "complete_case_matrix": false,
+    "harness_load_and_update": true,
+    "saved_default_periodic_error": true,
+    "source_hash_unchanged": true
+  },
+  "thresholds": {
+    "fixed_5deg_mean_error_max_e_rad": 0.0087266462599716477,
+    "fixed_fit_slope_range": [
+      0.9,
+      1.1
+    ],
+    "fixed_fit_intercept_abs_max_e_rad": 0.0087266462599716477,
+    "ideal_rmse_floor_e_rad": 0.0087266462599716477,
+    "ideal_rmse_predictor_floor_multiplier": 3,
+    "nonideal_rmse_max_e_rad": 0.034906585039886591,
+    "forward_reverse_mean_difference_max_e_rad": 0.0087266462599716477,
+    "ideal_voltage_reconstruction_rms_max_V": 1E-6,
+    "require_park_sign_test": true,
+    "require_residual_sign_test": true,
+    "require_timing_test": true,
+    "require_voltage_reconstruction_test": true,
+    "require_encoder_test": true,
+    "require_truth_isolation_test": true,
+    "stop_on_failure": true,
+    "allow_predictor_switch_to_mask_failure": false
+  },
+  "aggregate": {},
+  "errors": [
+    "错误使用 interp1>reshapeValuesV (第 463 行)\n采样值必须为双精度、单精度、持续时间或日期时间。\n\n出错 interp1>reshapeAndSortXandV (第 443 行)\n[V,orig_size_v] = reshapeValuesV(V);\n                  ^^^^^^^^^^^^^^^^^\n出错 interp1 (第 128 行)\n    [X,V,orig_size_v] = reshapeAndSortXandV(X,V);\n                        ^^^^^^^^^^^^^^^^^^^^^^^^\n出错 sample_logged_signal (第 34 行)\n    values = interp1(time,data,double(queryTime(:)),'previous','extrap');\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 analyze_stage1_case>local_sample (第 311 行)\nvalues = sample_logged_signal(simOut.get(name), queryTime_s, method);\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 analyze_stage1_case (第 36 行)\novermodulated = logical(local_sample(simOut, 'stage1_overmod_flag', eventTime_s, 'previous'));\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 run_stage1 (第 111 行)\n            [m, trace, implementation] = analyze_stage1_case(simOut,c,cfg);\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+  ]
+}

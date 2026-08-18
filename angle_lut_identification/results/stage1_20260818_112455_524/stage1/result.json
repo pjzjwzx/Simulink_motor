@@ -1,0 +1,13 @@
+{
+  "run_id": "stage1_20260818_112455_524",
+  "final_status": "FAIL",
+  "cases": {
+    "case_id": "fixed_05deg_e",
+    "status": "FAIL",
+    "elapsed_s": 36.469361,
+    "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_112455_524\\stage1\\cases\\fixed_05deg_e",
+    "message": "采样值必须为双精度、单精度、持续时间或日期时间。"
+  },
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_112455_524\\stage1",
+  "message": "采样值必须为双精度、单精度、持续时间或日期时间。"
+}

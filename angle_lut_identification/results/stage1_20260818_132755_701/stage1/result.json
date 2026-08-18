@@ -1,0 +1,29 @@
+{
+  "run_id": "stage1_20260818_132755_701",
+  "final_status": "BLOCKED",
+  "cases": {
+    "case_id": "nonideal_combined",
+    "status": "PASS",
+    "elapsed_s": 14.4129817,
+    "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132755_701\\stage1\\cases\\nonideal_combined",
+    "message": "Simulation and analysis completed.",
+    "voltage_ab_selected_source": "reconstructed",
+    "voltage_ab_selected_branch_rmse_e_deg": 1.4365055407429483
+  },
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_132755_701\\stage1",
+  "message": "Bounded smoke completed; the full Stage-1 acceptance matrix was intentionally not executed.",
+  "critical_early_stop": {
+    "eligible": false,
+    "evaluated": false,
+    "triggered": false,
+    "after_case_id": "",
+    "completed_case_count": 0,
+    "completed_metric_count": 0,
+    "remaining_case_count_at_evaluation": 0,
+    "unexecuted_case_count": 0,
+    "unexecuted_case_ids": [],
+    "checks": {},
+    "aggregate": {},
+    "reason": "Not eligible or not yet evaluated."
+  }
+}

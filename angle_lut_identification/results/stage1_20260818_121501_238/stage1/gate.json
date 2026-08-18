@@ -1,0 +1,69 @@
+{
+  "status": "BLOCKED",
+  "scope": "BOUNDED_SMOKE",
+  "checks": {
+    "stage0_pass": true,
+    "harness_builder_present": true,
+    "harness_present": true,
+    "complete_case_matrix": false,
+    "case_matrix_identity_selected": false,
+    "contractual_stop_times": true,
+    "unit_and_structure_tests": false,
+    "harness_load_and_update": true,
+    "saved_default_periodic_error": true,
+    "all_selected_cases_executed": true,
+    "all_selected_cases_analyzed": true,
+    "full_acceptance_evaluated": false,
+    "fixed_5deg_mean_error": false,
+    "fixed_fit": false,
+    "ideal_rmse": false,
+    "nonideal_rmse": false,
+    "forward_reverse_bias": false,
+    "ideal_voltage_reconstruction": false,
+    "minimum_valid_samples": true,
+    "case_matrix_identity": false,
+    "source_hash_unchanged": true
+  },
+  "thresholds": {
+    "fixed_5deg_mean_error_max_e_rad": 0.0087266462599716477,
+    "fixed_fit_slope_range": [
+      0.9,
+      1.1
+    ],
+    "fixed_fit_intercept_abs_max_e_rad": 0.0087266462599716477,
+    "ideal_rmse_floor_e_rad": 0.0087266462599716477,
+    "ideal_rmse_predictor_floor_multiplier": 3,
+    "nonideal_rmse_max_e_rad": 0.034906585039886591,
+    "forward_reverse_mean_difference_max_e_rad": 0.0087266462599716477,
+    "ideal_voltage_reconstruction_rms_max_V": 1E-6,
+    "require_park_sign_test": true,
+    "require_residual_sign_test": true,
+    "require_timing_test": true,
+    "require_voltage_reconstruction_test": true,
+    "require_encoder_test": true,
+    "require_truth_isolation_test": true,
+    "stop_on_failure": true,
+    "allow_predictor_switch_to_mask_failure": false
+  },
+  "aggregate": {
+    "fixed_5deg_mean_error_e_deg": 2.0425791149158248,
+    "fixed_fit_slope": 0.95678894433858463,
+    "fixed_fit_intercept_e_deg": 2.3679393825428678,
+    "ideal_case_count": 4,
+    "ideal_failed_case_ids": [
+      "fixed_00deg_e",
+      "fixed_05deg_e",
+      "fixed_10deg_e",
+      "fixed_20deg_e"
+    ],
+    "nonideal_case_count": 0,
+    "nonideal_failed_case_ids": [],
+    "forward_reverse_difference_e_deg": [
+      null,
+      null,
+      null
+    ],
+    "ideal_voltage_reconstruction_rms_V": null
+  },
+  "errors": []
+}

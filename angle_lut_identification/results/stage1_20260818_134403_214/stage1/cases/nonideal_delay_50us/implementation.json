@@ -1,0 +1,18 @@
+{
+  "encoder_angle_noise": "disabled",
+  "current_noise": "disabled",
+  "deadtime": "disabled",
+  "minimum_pulse": "disabled",
+  "inverter_voltage_drop": "disabled",
+  "extra_sensor_delay": "common_record_shift_with_interval_zoh_average",
+  "delay_whole_intervals": 1,
+  "delay_previous_interval_fraction": 0,
+  "delay_current_interval_fraction": 1,
+  "angle_timestamp_extrapolation": "disabled",
+  "note": "Electrical nonidealities and current noise are applied inside the copied harness. Requested extra sensor delay shifts current, raw angle and timestamps to one common representative boundary; effective duty, Vdc and flags are averaged over its complete following PWM interval.",
+  "voltage_ab_evaluator": "independent_evaluation_only_after_deployment",
+  "voltage_ab_deployment_source": "reconstructed_duty_vdc",
+  "voltage_ab_selected_source": "reconstructed",
+  "voltage_ab_gate_source": "reconstructed_deployment_only",
+  "voltage_ab_truth_policy": "truth_error_scores_branches_only; plant voltage never enters gates"
+}

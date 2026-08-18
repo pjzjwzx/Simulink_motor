@@ -1,0 +1,36 @@
+{
+  "run_id": "stage1_20260818_121501_238",
+  "final_status": "BLOCKED",
+  "cases": [
+    {
+      "case_id": "fixed_00deg_e",
+      "status": "PASS",
+      "elapsed_s": 44.0797226,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_121501_238\\stage1\\cases\\fixed_00deg_e",
+      "message": "Simulation and analysis completed."
+    },
+    {
+      "case_id": "fixed_05deg_e",
+      "status": "PASS",
+      "elapsed_s": 30.9430088,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_121501_238\\stage1\\cases\\fixed_05deg_e",
+      "message": "Simulation and analysis completed."
+    },
+    {
+      "case_id": "fixed_10deg_e",
+      "status": "PASS",
+      "elapsed_s": 30.838789,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_121501_238\\stage1\\cases\\fixed_10deg_e",
+      "message": "Simulation and analysis completed."
+    },
+    {
+      "case_id": "fixed_20deg_e",
+      "status": "PASS",
+      "elapsed_s": 28.8398749,
+      "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_121501_238\\stage1\\cases\\fixed_20deg_e",
+      "message": "Simulation and analysis completed."
+    }
+  ],
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_121501_238\\stage1",
+  "message": "Bounded smoke completed; the full Stage-1 acceptance matrix was intentionally not executed."
+}
