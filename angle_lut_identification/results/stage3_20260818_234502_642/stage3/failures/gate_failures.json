@@ -1,0 +1,10 @@
+[
+  "numeric.full_scope",
+  "numeric.condition_drift",
+  "numeric.sensitivity_complete",
+  "numeric.nonideal_control_angle",
+  "numeric.nonideal_physical_median",
+  "numeric.nonideal_no_regression",
+  "numeric.saturation_diagnostic_present",
+  "numeric.all_mandatory"
+]

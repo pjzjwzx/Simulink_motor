@@ -1,0 +1,16 @@
+{
+  "case_id": "nonideal_combined",
+  "active_enable": false,
+  "expected_class": "nonideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.19673968242071815,
+  "control_angle_rmse_e_deg": 11.272353465451305,
+  "id_rms_A": 1.6301999349724756,
+  "iq_tracking_rmse_A": 0.20954581262637273,
+  "prediction_residual_rms_A": 0.13759040499253514,
+  "mean_torque_Nm": 1.078761673495505,
+  "torque_ripple_rms_Nm": 0.017620828247617876,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 12.561157
+}

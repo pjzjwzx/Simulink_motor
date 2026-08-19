@@ -1,0 +1,16 @@
+{
+  "case_id": "speed_-20radps_m",
+  "active_enable": false,
+  "expected_class": "ideal",
+  "sample_count": 40001,
+  "control_angle_rmse_e_rad": 0.17436166353300489,
+  "control_angle_rmse_e_deg": 9.9901874293212956,
+  "id_rms_A": 1.0882507736135236,
+  "iq_tracking_rmse_A": 0.12551987085464492,
+  "prediction_residual_rms_A": 0.27115023715980596,
+  "mean_torque_Nm": 0.84083009539107,
+  "torque_ripple_rms_Nm": 0.010456313846656838,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 11.9105231
+}

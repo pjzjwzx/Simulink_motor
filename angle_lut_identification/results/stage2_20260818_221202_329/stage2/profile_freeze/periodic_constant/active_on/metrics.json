@@ -1,0 +1,16 @@
+{
+  "case_id": "periodic_constant",
+  "active_enable": true,
+  "expected_class": "ideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.037679320155055915,
+  "control_angle_rmse_e_deg": 2.1588660198069225,
+  "id_rms_A": 0.20927533419598163,
+  "iq_tracking_rmse_A": 0.013664568686943579,
+  "prediction_residual_rms_A": 0.049714278189876858,
+  "mean_torque_Nm": 1.0810986612541162,
+  "torque_ripple_rms_Nm": 0.0010101286845854594,
+  "compensation_rms_e_rad": 0.13940643314304804,
+  "compensation_max_abs_e_rad": 0.13982659165422093,
+  "elapsed_s": 12.3994859
+}

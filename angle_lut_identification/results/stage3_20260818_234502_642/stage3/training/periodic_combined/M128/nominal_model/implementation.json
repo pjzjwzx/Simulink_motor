@@ -1,0 +1,17 @@
+{
+  "schema_version": "scheme5-learning-implementation-v1",
+  "source_trace": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\training\\periodic_combined\\M64\\training_trace.mat",
+  "source_trace_sha256": "68945770ca6e9fd1590ca9043e88bdb67169cfc8ef60b3877a7255ac6246a6dc",
+  "sample_interface": [
+    "phi_m_rad",
+    "y_d_A",
+    "y_q_A",
+    "omega_e_est_radps",
+    "quality_weight",
+    "theta_m_unwrapped_rad",
+    "timestamp_s",
+    "valid"
+  ],
+  "truth_feedback_used": false,
+  "primary_mode": true
+}

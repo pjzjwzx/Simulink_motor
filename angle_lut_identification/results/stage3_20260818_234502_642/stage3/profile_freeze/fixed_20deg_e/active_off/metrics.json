@@ -1,0 +1,16 @@
+{
+  "case_id": "fixed_20deg_e",
+  "active_enable": false,
+  "expected_class": "ideal",
+  "sample_count": 125665,
+  "control_angle_rmse_e_rad": 0.34975227979320178,
+  "id_rms_A": 2.9169601802917584,
+  "iq_tracking_rmse_A": 0.49627170053485226,
+  "prediction_residual_rms_A": 0.25343888316024393,
+  "mean_torque_Nm": 1.0799683980916013,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "control_angle_rmse_e_deg": 20.039329507229166,
+  "torque_ripple_rms_Nm": 0.00691410494274509,
+  "elapsed_s": 37.268255
+}

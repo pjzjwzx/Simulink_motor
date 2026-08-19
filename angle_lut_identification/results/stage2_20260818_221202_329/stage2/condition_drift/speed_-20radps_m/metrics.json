@@ -1,0 +1,7 @@
+{
+  "case_id": "speed_-20radps_m",
+  "lut_drift_e_rad": 0.0014841547306127635,
+  "lut_drift_e_deg": 0.085035802208486985,
+  "coverage_fraction": 1,
+  "solve_count": 11
+}

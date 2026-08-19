@@ -1,0 +1,41 @@
+{
+  "schema_version": "angle-lut-stage2-manifest-v1",
+  "run_id": "stage2_20260818_221202_329",
+  "started_at_utc": "2026-08-18T14:12:02.365Z",
+  "completed_at_utc": "2026-08-18T14:59:52.766Z",
+  "final_status": "PASS",
+  "scope": "FULL_STAGE2",
+  "random_seed": 20260818,
+  "stage1_source": {
+    "run_id": "stage1_20260818_134403_214",
+    "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1",
+    "gate_sha256": "57977318eb2d697d9906c8e9d90f358b76b7db67e721a934babd182975b9a7aa",
+    "result_sha256": "31f8da7115d51cfe407ba223cdbf6a4927715ab571ecad8db24ad2fe723c00f5",
+    "status": "PASS"
+  },
+  "source_model_sha256_before": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "source_model_sha256_after": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "stage1_harness_sha256_before": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage1_harness_sha256_after": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage2_harness_sha256_before": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "stage2_harness_sha256_after": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "tests": {
+    "passed": true,
+    "count": 114,
+    "failed": 0,
+    "incomplete": 0,
+    "skipped": false
+  },
+  "critical_early_stop": {
+    "triggered": false,
+    "phase": "",
+    "case_id": "",
+    "reason": ""
+  },
+  "lut_learning_enabled": true,
+  "control_compensation_frozen_during_validation": true,
+  "stage3_executed": false,
+  "stage4_executed": false,
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2",
+  "report_bundle_generated": true
+}

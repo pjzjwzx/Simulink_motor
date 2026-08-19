@@ -1,0 +1,14 @@
+[
+  {
+    "nodes": 64,
+    "scheme4_state_bytes": 3648,
+    "runtime_lut_512_bytes": 4096,
+    "nominal_operations_per_update": 22
+  },
+  {
+    "nodes": 128,
+    "scheme4_state_bytes": 7040,
+    "runtime_lut_512_bytes": 4096,
+    "nominal_operations_per_update": 22
+  }
+]

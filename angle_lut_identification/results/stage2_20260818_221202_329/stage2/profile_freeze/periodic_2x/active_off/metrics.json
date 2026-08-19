@@ -1,0 +1,16 @@
+{
+  "case_id": "periodic_2x",
+  "active_enable": false,
+  "expected_class": "ideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.0864858337279806,
+  "control_angle_rmse_e_deg": 4.9552732602834757,
+  "id_rms_A": 0.67289851993712357,
+  "iq_tracking_rmse_A": 0.028573099951974993,
+  "prediction_residual_rms_A": 0.075461587522906631,
+  "mean_torque_Nm": 1.0811810720026498,
+  "torque_ripple_rms_Nm": 0.00285939066093695,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 26.5744127
+}

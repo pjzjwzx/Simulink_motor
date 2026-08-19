@@ -1,0 +1,18 @@
+# Binary engineering and report artifacts
+*.slx binary
+*.slxc binary
+*.mat binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Keep source and audit text normalized in the repository.
+*.m text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf

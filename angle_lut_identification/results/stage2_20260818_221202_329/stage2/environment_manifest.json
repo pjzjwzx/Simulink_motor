@@ -1,0 +1,301 @@
+{
+  "schema_version": "angle-lut-environment-v1",
+  "collected_at_utc": "2026-08-18T14:12:35.384Z",
+  "matlab": {
+    "Name": "MATLAB",
+    "Version": "24.2.0.3070828 (R2024b) Update 7",
+    "Release": "2024b"
+  },
+  "products": [
+    {
+      "Name": "Audio Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "C2000 Microcontroller Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Control System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Database Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Deep Learning HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Deep Learning Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "DSP HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "DSP System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Embedded Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Fixed-Point Designer",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Fuzzy Logic Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Global Optimization Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "GPU Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "HDL Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "HDL Verifier",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Industrial Communication Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Instrument Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB Compiler",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB Compiler SDK",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB Report Generator",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "MATLAB Test",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Model Predictive Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Model-Based Calibration Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Motor Control Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Optimization Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Parallel Computing Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Robotics System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Robust Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "ROS Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Signal Integrity Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Signal Processing Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simscape",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simscape Electrical",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Check",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Code Inspector",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Compiler",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Control Design",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Coverage",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Design Optimization",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Design Verifier",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Desktop Real-Time",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Fault Analyzer",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink PLC Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Real-Time",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Report Generator",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Simulink Test",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Statistics and Machine Learning Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "Symbolic Math Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    },
+    {
+      "Name": "UAV Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)"
+    }
+  ],
+  "model": {
+    "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\models\\angle_lut_stage2_harness.slx",
+    "name": "angle_lut_stage2_harness",
+    "sha256": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+    "loaded_before_call": false,
+    "solver_type": "Variable-step",
+    "solver": "VariableStepAuto",
+    "stop_time_expression": "10.0",
+    "stop_time_s": 10
+  },
+  "powergui": {
+    "present": true,
+    "count": 1,
+    "blocks": {
+      "block_path": "angle_lut_stage2_harness/powergui1",
+      "mode": "Discrete",
+      "sample_time_expression": "5e-6",
+      "sample_time_s": 5E-6
+    }
+  },
+  "timing": {
+    "Ts_base_s": 5E-6,
+    "fpwm_Hz": 20000,
+    "T_ident_s": 5E-5
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "angle-lut-stage2-reports-v1",
+  "generated_at_utc": "2026-08-18T15:00:08.277Z",
+  "reports": [
+    {
+      "name": "lut_truth_shadow_active",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\lut_truth_shadow_active.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\lut_truth_shadow_active.pdf"
+    },
+    {
+      "name": "node_error",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\node_error.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\node_error.pdf"
+    },
+    {
+      "name": "convergence_time_cycles",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\convergence_time_cycles.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\convergence_time_cycles.pdf"
+    },
+    {
+      "name": "coverage_information",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\coverage_information.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\coverage_information.pdf"
+    },
+    {
+      "name": "solver_diagnostics",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\solver_diagnostics.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\solver_diagnostics.pdf"
+    },
+    {
+      "name": "active_off_on_pairs",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\active_off_on_pairs.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\active_off_on_pairs.pdf"
+    },
+    {
+      "name": "direction_speed_load_drift",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\direction_speed_load_drift.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\direction_speed_load_drift.pdf"
+    },
+    {
+      "name": "safety_constraints",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\safety_constraints.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\safety_constraints.pdf"
+    },
+    {
+      "name": "compute_storage_cost",
+      "available": true,
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\compute_storage_cost.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2\\reports\\compute_storage_cost.pdf"
+    }
+  ],
+  "evaluation_truth_used_for_scoring_only": true,
+  "truth_feedback_used": false,
+  "gate_sha256_before": "97dbed122f5d58cdd7c41237886d19862f82a6eea4acc1f68505520268df4eed",
+  "gate_sha256_after": "97dbed122f5d58cdd7c41237886d19862f82a6eea4acc1f68505520268df4eed"
+}

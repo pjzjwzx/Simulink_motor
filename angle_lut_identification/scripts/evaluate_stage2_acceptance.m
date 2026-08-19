@@ -1,0 +1,169 @@
+function [checks,aggregate] = evaluate_stage2_acceptance( ...
+        profiles64,profiles128,frozenPairs,drift,cfg,complete)
+%EVALUATE_STAGE2_ACCEPTANCE Apply the pre-registered Stage-2 gates.
+
+g = cfg.gates.stage2;
+profiles64 = profiles64(:);
+profiles128 = profiles128(:);
+frozenPairs = frozenPairs(:);
+drift = drift(:);
+
+checks = struct();
+checks.full_scope = logical(complete);
+checks.m64_all_profiles = numel(profiles64) == 8;
+checks.m128_all_profiles = numel(profiles128) == 8;
+checks.solver_reference_agreement = local_all(profiles64, ...
+    'solver_relative_difference',g.solver_relative_difference_max) && ...
+    local_all(profiles128,'solver_relative_difference', ...
+    g.solver_relative_difference_max);
+checks.normal_equation_residual = local_all(profiles64, ...
+    'normal_equation_relative_residual',g.normal_equation_relative_residual_max) && ...
+    local_all(profiles128,'normal_equation_relative_residual', ...
+    g.normal_equation_relative_residual_max);
+checks.conditioning = local_all_min(profiles64,'rcond',g.rcond_min) && ...
+    local_all_min(profiles128,'rcond',g.rcond_min);
+checks.m64_coverage = local_all_min(profiles64,'coverage_fraction', ...
+    g.coverage_fraction_min);
+checks.m64_solve_count = local_all_min(profiles64,'solve_count', ...
+    g.solve_count_min);
+checks.active_convergence = local_all(profiles64, ...
+    'last_active_update_rms_e_rad',g.final_active_update_rms_max_e_rad) && ...
+    local_all(profiles64,'previous_active_update_rms_e_rad', ...
+    g.final_active_update_rms_max_e_rad);
+
+primary64 = local_by_id(profiles64,cfg.stage2.primary_profile_id);
+primary128 = local_by_id(profiles128,cfg.stage2.primary_profile_id);
+checks.primary_shadow_accuracy = ~isempty(primary64) && ...
+    primary64.shadow_rmse_e_rad <= g.shadow_lut_rmse_max_e_rad;
+checks.active_lut_accuracy = local_all(profiles64,'active_rmse_e_rad', ...
+    g.active_lut_rmse_max_e_rad) && local_all(profiles64, ...
+    'active_max_error_e_rad',g.active_lut_max_error_e_rad);
+fixed0 = local_by_id(profiles64,"fixed_00deg_e");
+checks.fixed_zero_accuracy = ~isempty(fixed0) && ...
+    fixed0.active_rmse_e_rad <= g.fixed_zero_lut_rmse_max_e_rad;
+nonzero = profiles64(string({profiles64.case_id}) ~= "fixed_00deg_e");
+checks.nonzero_lut_improvement = local_all_min(nonzero, ...
+    'active_improvement_fraction',g.nonzero_lut_improvement_min);
+checks.safety_constraints = local_logical_all(profiles64, ...
+    'amplitude_constraint_satisfied') && local_logical_all(profiles64, ...
+    'monotonic_constraint_satisfied') && local_logical_all(profiles64, ...
+    'all_nodes_valid');
+
+checks.m128_scan = local_all_min(profiles128,'coverage_fraction',1) && ...
+    local_logical_all(profiles128,'all_nodes_valid');
+checks.m128_not_worse = ~isempty(primary64) && ~isempty(primary128) && ...
+    primary128.active_rmse_e_rad <= primary64.active_rmse_e_rad + ...
+    g.m128_rmse_regression_max_e_rad;
+checks.condition_drift = numel(drift) >= 8 && local_all(drift, ...
+    'lut_drift_e_rad',g.cross_condition_lut_drift_max_e_rad);
+
+className = string({frozenPairs.expected_class});
+ideal = frozenPairs(className == "ideal");
+nonideal = frozenPairs(className == "nonideal");
+saturation = frozenPairs(className == "saturation_diagnostic");
+idealControl = ideal(string({ideal.case_id}) ~= "fixed_00deg_e");
+checks.ideal_control_angle = local_control_angle_all(idealControl,cfg);
+checks.ideal_physical_median = local_median_min(ideal, ...
+    {'id_rms_improvement','prediction_residual_improvement', ...
+    'torque_ripple_improvement'},g.ideal_median_physical_improvement_min);
+checks.ideal_no_regression = local_all_min(ideal, ...
+    'id_rms_improvement',-g.ideal_per_case_regression_max) && ...
+    local_all_min(ideal,'prediction_residual_improvement', ...
+    -g.ideal_per_case_regression_max) && local_all_min(ideal, ...
+    'torque_ripple_improvement',-g.ideal_per_case_regression_max);
+checks.iq_tracking = local_all(frozenPairs(className ~= ...
+    "saturation_diagnostic"),'iq_tracking_change',g.iq_tracking_regression_max);
+checks.mean_torque = local_all(frozenPairs(className ~= ...
+    "saturation_diagnostic"),'mean_torque_change',g.mean_torque_change_max);
+checks.nonideal_control_angle = local_all_min(nonideal, ...
+    'control_angle_improvement',g.nonideal_control_angle_improvement_min);
+checks.nonideal_physical_median = local_median_min(nonideal, ...
+    {'id_rms_improvement','prediction_residual_improvement', ...
+    'torque_ripple_improvement'},0);
+checks.nonideal_no_regression = local_all_min(nonideal, ...
+    'id_rms_improvement',-g.nonideal_per_case_regression_max) && ...
+    local_all_min(nonideal,'prediction_residual_improvement', ...
+    -g.nonideal_per_case_regression_max) && local_all_min(nonideal, ...
+    'torque_ripple_improvement',-g.nonideal_per_case_regression_max);
+checks.saturation_diagnostic_present = isscalar(saturation) && ...
+    isfinite(saturation.active.compensation_max_abs_e_rad) && ...
+    saturation.active.compensation_max_abs_e_rad <= ...
+    cfg.stage2.max_abs_lut_e_rad+100*eps;
+
+values = struct2cell(checks);
+checks.all_mandatory = all(cellfun(@(x)islogical(x) && isscalar(x) && x, ...
+    values));
+
+aggregate = struct();
+aggregate.m64_profile_count = numel(profiles64);
+aggregate.m128_profile_count = numel(profiles128);
+aggregate.frozen_pair_count = numel(frozenPairs);
+aggregate.ideal_pair_count = numel(ideal);
+aggregate.nonideal_pair_count = numel(nonideal);
+aggregate.saturation_pair_count = numel(saturation);
+aggregate.minimum_rcond = min([local_values(profiles64,'rcond'); ...
+    local_values(profiles128,'rcond')],[],'omitnan');
+aggregate.maximum_solver_relative_difference = max([ ...
+    local_values(profiles64,'solver_relative_difference'); ...
+    local_values(profiles128,'solver_relative_difference')],[],'omitnan');
+aggregate.primary_m64_active_rmse_e_deg = local_deg(primary64, ...
+    'active_rmse_e_rad');
+aggregate.primary_m128_active_rmse_e_deg = local_deg(primary128, ...
+    'active_rmse_e_rad');
+aggregate.maximum_condition_drift_e_deg = rad2deg(max( ...
+    local_values(drift,'lut_drift_e_rad'),[],'omitnan'));
+end
+
+function pass = local_control_angle_all(values,cfg)
+if isempty(values), pass = false; return; end
+pass = true;
+for k = 1:numel(values)
+    c = struct('case_id',values(k).case_id);
+    [itemPass,~,~] = control_angle_gate(values(k),c,cfg);
+    pass = pass && itemPass;
+end
+end
+
+function out = local_by_id(values,id)
+if isempty(values), out = []; return; end
+index = find(string({values.case_id}) == string(id),1);
+if isempty(index), out = []; else, out = values(index); end
+end
+
+function pass = local_all(values,field,limit)
+v = local_values(values,field);
+pass = ~isempty(v) && all(isfinite(v) & v <= limit);
+end
+
+function pass = local_all_min(values,field,limit)
+v = local_values(values,field);
+pass = ~isempty(v) && all(isfinite(v) & v >= limit);
+end
+
+function pass = local_logical_all(values,field)
+if isempty(values), pass = false; return; end
+pass = all(arrayfun(@(x)isfield(x,field) && logical(x.(field)),values));
+end
+
+function pass = local_median_min(values,fields,limit)
+if isempty(values), pass = false; return; end
+pass = true;
+for k = 1:numel(fields)
+    v = local_values(values,fields{k});
+    pass = pass && ~isempty(v) && all(isfinite(v)) && median(v) >= limit;
+end
+end
+
+function values = local_values(input,field)
+if isempty(input), values = zeros(0,1); return; end
+values = arrayfun(@(x)local_field(x,field),input(:));
+end
+
+function value = local_field(input,field)
+if isfield(input,field), value = double(input.(field)); else, value = NaN; end
+end
+
+function value = local_deg(input,field)
+if isempty(input) || ~isfield(input,field), value = NaN; ...
+else, value = rad2deg(input.(field)); end
+end

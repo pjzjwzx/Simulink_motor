@@ -1,0 +1,16 @@
+{
+  "case_id": "load_2Nm",
+  "active_enable": false,
+  "expected_class": "ideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.26240814762280623,
+  "control_angle_rmse_e_deg": 15.034879368632662,
+  "id_rms_A": 4.1512744501471417,
+  "iq_tracking_rmse_A": 0.6764053508523189,
+  "prediction_residual_rms_A": 0.14400196528510711,
+  "mean_torque_Nm": 2.0662936168895549,
+  "torque_ripple_rms_Nm": 0.049612450285297725,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 14.4990906
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "stage3-report-bundle-v1",
+  "generated_at_utc": "2026-08-18T16:09:35.503Z",
+  "stage3_directory": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3",
+  "reports": [
+    {
+      "name": "lut_truth_shadow_active",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\lut_truth_shadow_active.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\lut_truth_shadow_active.pdf",
+      "available": true
+    },
+    {
+      "name": "lut_learning_evolution",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\lut_learning_evolution.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\lut_learning_evolution.pdf",
+      "available": true
+    },
+    {
+      "name": "scheme4_scheme5_comparison",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\scheme4_scheme5_comparison.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\scheme4_scheme5_comparison.pdf",
+      "available": true
+    },
+    {
+      "name": "amplitude_mode_comparison",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\amplitude_mode_comparison.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\amplitude_mode_comparison.pdf",
+      "available": true
+    },
+    {
+      "name": "tangent_radial_diagnostics",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\tangent_radial_diagnostics.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\tangent_radial_diagnostics.pdf",
+      "available": true
+    },
+    {
+      "name": "coverage_fusion_events",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\coverage_fusion_events.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\coverage_fusion_events.pdf",
+      "available": true
+    },
+    {
+      "name": "active_off_on_pairs",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\active_off_on_pairs.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\active_off_on_pairs.pdf",
+      "available": true
+    },
+    {
+      "name": "direction_speed_load_drift",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\direction_speed_load_drift.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\direction_speed_load_drift.pdf",
+      "available": true
+    },
+    {
+      "name": "parameter_sensitivity",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\parameter_sensitivity.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\parameter_sensitivity.pdf",
+      "available": false
+    },
+    {
+      "name": "safety_compute_storage",
+      "png": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\safety_compute_storage.png",
+      "pdf": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3\\reports\\safety_compute_storage.pdf",
+      "available": true
+    }
+  ],
+  "primary_profile_id": "periodic_combined",
+  "truth_feedback_used": false,
+  "joint_parameter_identification_used": false,
+  "stage4_executed": false,
+  "gate_sha256_before": "956b76d2e6ce45fc33602cd24e484e4ab94478887b325e07561ca637b2d91e49",
+  "gate_sha256_after": "956b76d2e6ce45fc33602cd24e484e4ab94478887b325e07561ca637b2d91e49",
+  "gate_unchanged": true
+}

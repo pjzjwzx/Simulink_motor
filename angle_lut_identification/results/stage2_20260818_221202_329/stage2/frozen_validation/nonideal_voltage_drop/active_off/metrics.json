@@ -1,0 +1,16 @@
+{
+  "case_id": "nonideal_voltage_drop",
+  "active_enable": false,
+  "expected_class": "nonideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.19671234255838371,
+  "control_angle_rmse_e_deg": 11.270787006727073,
+  "id_rms_A": 1.6035127316183426,
+  "iq_tracking_rmse_A": 0.20570980636954386,
+  "prediction_residual_rms_A": 0.13415156052448882,
+  "mean_torque_Nm": 1.0787723003821723,
+  "torque_ripple_rms_Nm": 0.016972687671172236,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 12.3183304
+}

@@ -1,0 +1,65 @@
+# MATLAB / Simulink generated caches and build products
+**/slprj/
+*.slxc
+*.autosave
+*.asv
+*.m~
+
+# Editor and operating-system noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+
+# Report render/QA intermediates. Keep the final DOCX/PDF and its builder.
+angle_lut_identification/reports/qa/
+angle_lut_identification/reports/qa_final/
+angle_lut_identification/reports/*.png
+angle_lut_identification/reports/*.json
+
+# Simulation runs are large and reproducible. Ignore every run by default.
+angle_lut_identification/results/**
+
+# Keep pointers to the formally accepted/latest stages.
+!angle_lut_identification/results/latest_stage0.txt
+!angle_lut_identification/results/latest_stage1.txt
+!angle_lut_identification/results/latest_stage2.txt
+!angle_lut_identification/results/latest_stage3.txt
+
+# Keep audit-sized artifacts from the formal Stage 0 PASS.
+!angle_lut_identification/results/stage0_20260818_134242_494/
+!angle_lut_identification/results/stage0_20260818_134242_494/**/
+!angle_lut_identification/results/stage0_20260818_134242_494/**/*.json
+!angle_lut_identification/results/stage0_20260818_134242_494/**/*.csv
+!angle_lut_identification/results/stage0_20260818_134242_494/**/*.txt
+
+# Keep audit-sized artifacts and reports from the formal Stage 1 PASS.
+!angle_lut_identification/results/stage1_20260818_134403_214/
+!angle_lut_identification/results/stage1_20260818_134403_214/**/
+!angle_lut_identification/results/stage1_20260818_134403_214/**/*.json
+!angle_lut_identification/results/stage1_20260818_134403_214/**/*.csv
+!angle_lut_identification/results/stage1_20260818_134403_214/**/*.txt
+!angle_lut_identification/results/stage1_20260818_134403_214/**/*.png
+!angle_lut_identification/results/stage1_20260818_134403_214/**/*.pdf
+
+# Keep audit-sized artifacts, key LUTs and reports from the formal Stage 2 PASS.
+!angle_lut_identification/results/stage2_20260818_221202_329/
+!angle_lut_identification/results/stage2_20260818_221202_329/**/
+!angle_lut_identification/results/stage2_20260818_221202_329/**/*.json
+!angle_lut_identification/results/stage2_20260818_221202_329/**/*.csv
+!angle_lut_identification/results/stage2_20260818_221202_329/**/*.txt
+!angle_lut_identification/results/stage2_20260818_221202_329/**/*.png
+!angle_lut_identification/results/stage2_20260818_221202_329/**/*.pdf
+!angle_lut_identification/results/stage2_20260818_221202_329/stage2/luts/primary_luts.mat
+
+# Keep audit-sized artifacts, key LUTs and reports from the formal Stage 3 run.
+# Stage 3 is intentionally retained as FAIL evidence, not relabelled as PASS.
+!angle_lut_identification/results/stage3_20260818_234502_642/
+!angle_lut_identification/results/stage3_20260818_234502_642/**/
+!angle_lut_identification/results/stage3_20260818_234502_642/**/*.json
+!angle_lut_identification/results/stage3_20260818_234502_642/**/*.csv
+!angle_lut_identification/results/stage3_20260818_234502_642/**/*.txt
+!angle_lut_identification/results/stage3_20260818_234502_642/**/*.png
+!angle_lut_identification/results/stage3_20260818_234502_642/**/*.pdf
+!angle_lut_identification/results/stage3_20260818_234502_642/stage3/luts/primary_luts.mat

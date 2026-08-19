@@ -7,6 +7,7 @@ addpath(fullfile(root, 'config'));
 addpath(fullfile(root, 'scripts'));
 addpath(fullfile(root, 'src'));
 addpath(fullfile(root, 'tests'));
+addpath(fullfile(root, 'models'));
 
 cacheFolder = fullfile(tempdir, 'angle_lut_stage1_cache');
 codegenFolder = fullfile(tempdir, 'angle_lut_stage1_codegen');

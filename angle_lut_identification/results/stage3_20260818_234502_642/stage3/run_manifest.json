@@ -1,0 +1,42 @@
+{
+  "schema_version": "angle-lut-stage3-manifest-v1",
+  "run_id": "stage3_20260818_234502_642",
+  "started_at_utc": "2026-08-18T15:45:02.679Z",
+  "completed_at_utc": "2026-08-18T16:09:10.635Z",
+  "final_status": "FAIL",
+  "scope": "FULL_STAGE3",
+  "random_seed": 20260818,
+  "prerequisite_stage2": {
+    "run_id": "stage2_20260818_221202_329",
+    "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2",
+    "status": "PASS",
+    "gate_sha256": "ed1f83333092656e3451a18c698f545fca18972f260a822c0aef09b5cdf6dc40",
+    "result_sha256": "2b6e9307bd8f1157954c8e93f22ee023c2808cf5fe0c634eac37e34e805a6ab5",
+    "stage1_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage1_20260818_134403_214\\stage1"
+  },
+  "source_model_sha256_before": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "source_model_sha256_after": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "stage1_harness_sha256_before": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage1_harness_sha256_after": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage2_harness_sha256_before": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "stage2_harness_sha256_after": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "stage3_harness_sha256": "b201ad0db5e3bc309366c51a13d41c7a7a2082d7e62699d291857d5511bc7727",
+  "tests": {
+    "passed": true,
+    "skipped": false,
+    "count": 117,
+    "failed": 0,
+    "incomplete": 0
+  },
+  "critical_early_stop": {
+    "triggered": true,
+    "phase": "condition_drift",
+    "case_id": "",
+    "reason": "A Scheme-5 speed/direction/load LUT drift is >=0.5 deg_e."
+  },
+  "primary_amplitude_mode": "nominal_model",
+  "joint_parameter_identification_enabled": false,
+  "stage4_executed": false,
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3",
+  "report_bundle_generated": true
+}

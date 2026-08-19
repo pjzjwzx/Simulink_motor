@@ -1,0 +1,16 @@
+{
+  "case_id": "nonideal_deadtime",
+  "active_enable": false,
+  "expected_class": "nonideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.19680524158729001,
+  "control_angle_rmse_e_deg": 11.276109729004268,
+  "id_rms_A": 1.6230716389861064,
+  "iq_tracking_rmse_A": 0.20847803947212462,
+  "prediction_residual_rms_A": 0.12866878554230812,
+  "mean_torque_Nm": 1.0787499897160604,
+  "torque_ripple_rms_Nm": 0.017440076426598696,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 12.7653634
+}

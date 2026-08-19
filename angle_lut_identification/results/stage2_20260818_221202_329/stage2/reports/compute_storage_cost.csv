@@ -1,0 +1,3 @@
+nodes,scheme4_state_bytes,runtime_lut_512_bytes,nominal_operations_per_update
+64,3648,4096,22
+128,7040,4096,22

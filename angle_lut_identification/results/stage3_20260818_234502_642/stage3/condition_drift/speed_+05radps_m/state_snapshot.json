@@ -1,0 +1,11 @@
+{
+  "schema_version": "scheme5-state-v1",
+  "M": 64,
+  "amplitude_mode": "nominal_model",
+  "sample_count": 120531,
+  "accepted_count": 85577,
+  "fusion_count": 5,
+  "coverage_fraction": 1,
+  "total_abs_travel_m_rad": 21.414371798884382,
+  "history_stored_inside_state": false
+}

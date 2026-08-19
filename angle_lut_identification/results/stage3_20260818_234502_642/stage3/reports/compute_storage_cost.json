@@ -1,0 +1,8 @@
+{
+  "scheme5_state_nodes": 64,
+  "runtime_nodes": 512,
+  "history_inside_algorithm_state": false,
+  "nodes_updated_per_sample": 2,
+  "whole_table_operations_per_sample": 0,
+  "joint_parameter_states": 0
+}

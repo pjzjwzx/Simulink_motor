@@ -1,2 +1,0 @@
-component,case_id,category,observed_rmse_e_deg,reference_rmse_e_deg,incremental_rss_e_deg,mean_bias_e_deg,valid_fraction,available,note
-nonideal_combined,nonideal_combined,ideal_reference,1.61463616725282,1.61463616725282,0,0.087640790532492,1,1,Increment is root-sum-square excess over the selected reference; descriptive only.

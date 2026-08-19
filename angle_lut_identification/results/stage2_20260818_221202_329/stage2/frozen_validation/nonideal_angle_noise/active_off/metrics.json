@@ -1,0 +1,16 @@
+{
+  "case_id": "nonideal_angle_noise",
+  "active_enable": false,
+  "expected_class": "nonideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.19669474013088423,
+  "control_angle_rmse_e_deg": 11.269778461922169,
+  "id_rms_A": 1.6020942506140685,
+  "iq_tracking_rmse_A": 0.20539885415850084,
+  "prediction_residual_rms_A": 0.12670369869717316,
+  "mean_torque_Nm": 1.0787736056986312,
+  "torque_ripple_rms_Nm": 0.016923977597122233,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 12.2725657
+}

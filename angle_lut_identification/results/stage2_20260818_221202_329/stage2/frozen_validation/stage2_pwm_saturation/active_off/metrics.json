@@ -1,0 +1,16 @@
+{
+  "case_id": "stage2_pwm_saturation",
+  "active_enable": false,
+  "expected_class": "saturation_diagnostic",
+  "sample_count": 40001,
+  "control_angle_rmse_e_rad": 0.19487113611880102,
+  "control_angle_rmse_e_deg": 11.165293648526676,
+  "id_rms_A": 3.1536122789955683,
+  "iq_tracking_rmse_A": 0.405681065474446,
+  "prediction_residual_rms_A": null,
+  "mean_torque_Nm": 2.1581454792262869,
+  "torque_ripple_rms_Nm": 0.032984954878745455,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "elapsed_s": 11.4501782
+}
