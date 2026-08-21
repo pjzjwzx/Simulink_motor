@@ -1,0 +1,7 @@
+condition,scheme,active_rmse_e_deg,storage_bytes,sample_ops_estimate
+zero_noise,Scheme 4,0.304029573328837,10282,24
+zero_noise,Scheme 5,0.438354357204274,5272,32
+zero_noise,Scheme 2,0.337024967632965,9482,20
+noise95_pm0p1A,Scheme 4,0.305598469314186,10290,24
+noise95_pm0p1A,Scheme 5,0.437110490576611,5295,32
+noise95_pm0p1A,Scheme 2,0.337770265582154,9474,20

@@ -1,0 +1,49 @@
+{
+  "schema_version": "scheme4_5_2_cost_comparison-v1",
+  "available": true,
+  "reason": "",
+  "rows": [
+    {
+      "condition": "zero_noise",
+      "scheme": "Scheme 4",
+      "active_rmse_e_deg": 0.304029573328837,
+      "storage_bytes": 10282,
+      "sample_ops_estimate": 24
+    },
+    {
+      "condition": "zero_noise",
+      "scheme": "Scheme 5",
+      "active_rmse_e_deg": 0.43835435720427351,
+      "storage_bytes": 5272,
+      "sample_ops_estimate": 32
+    },
+    {
+      "condition": "zero_noise",
+      "scheme": "Scheme 2",
+      "active_rmse_e_deg": 0.337024967632965,
+      "storage_bytes": 9482,
+      "sample_ops_estimate": 20
+    },
+    {
+      "condition": "noise95_pm0p1A",
+      "scheme": "Scheme 4",
+      "active_rmse_e_deg": 0.30559846931418638,
+      "storage_bytes": 10290,
+      "sample_ops_estimate": 24
+    },
+    {
+      "condition": "noise95_pm0p1A",
+      "scheme": "Scheme 5",
+      "active_rmse_e_deg": 0.437110490576611,
+      "storage_bytes": 5295,
+      "sample_ops_estimate": 32
+    },
+    {
+      "condition": "noise95_pm0p1A",
+      "scheme": "Scheme 2",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "storage_bytes": 9474,
+      "sample_ops_estimate": 20
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "distribution": "independent zero-mean Gaussian",
+  "requested_95_percent_half_width_A": 0.1,
+  "sigma_A": 0.0510213456924654,
+  "random_seed": 20260818,
+  "injection_point": "post-ADC-quantizer identification measurement",
+  "adc_quantization_enabled_in_both_conditions": true,
+  "adc_current_lsb_A": 0.02442002442,
+  "sample_count_per_phase": 145664,
+  "mean_A": [
+    -8.27336552047173E-5,
+    4.0125530792197785E-5,
+    -3.3074794809412596E-5
+  ],
+  "std_A": [
+    0.050835036757916195,
+    0.050930061715802152,
+    0.051048340860022724
+  ],
+  "rms_A": [
+    0.050834929587849145,
+    0.050929902701768746,
+    0.051048176348177848
+  ],
+  "max_abs_A": [
+    0.22230060688390907,
+    0.2168547892465682,
+    0.23595117035390523
+  ],
+  "fraction_within_requested_band": 0.95046591241944933,
+  "percent_within_requested_band": 95.046591241944938,
+  "noise_samples_reconstructed_by_paired_subtraction": true
+}

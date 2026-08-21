@@ -1,0 +1,52 @@
+{
+  "case_id": "periodic_combined_zero_noise",
+  "expected_class": "ideal",
+  "baseline": {
+    "case_id": "periodic_combined_zero_noise",
+    "active_enable": false,
+    "expected_class": "ideal",
+    "sample_count": 50267,
+    "control_angle_rmse_e_rad": 0.196816268019623,
+    "id_rms_A": 1.6029937737825231,
+    "iq_tracking_rmse_A": 0.20566494304755839,
+    "prediction_residual_rms_A": 0.12668617120898029,
+    "mean_torque_Nm": 1.0787558321360113,
+    "compensation_rms_e_rad": 0,
+    "compensation_max_abs_e_rad": 0,
+    "control_angle_rmse_e_deg": 11.276741497040033,
+    "torque_ripple_rms_Nm": 0.016945359562121756,
+    "elapsed_s": 11.8619811
+  },
+  "active": {
+    "case_id": "periodic_combined_zero_noise",
+    "active_enable": true,
+    "expected_class": "ideal",
+    "sample_count": 50267,
+    "control_angle_rmse_e_rad": 0.037574072209871974,
+    "id_rms_A": 0.21183765447531105,
+    "iq_tracking_rmse_A": 0.013723621098799495,
+    "prediction_residual_rms_A": 0.050365521727890536,
+    "mean_torque_Nm": 1.0811262289169843,
+    "compensation_rms_e_rad": 0.16938616615609348,
+    "compensation_max_abs_e_rad": 0.31458975616521706,
+    "control_angle_rmse_e_deg": 2.1528357567454584,
+    "torque_ripple_rms_Nm": 0.0010463559378390908,
+    "elapsed_s": 11.4814352
+  },
+  "control_angle_improvement": 0.8090906174172261,
+  "id_rms_improvement": 0.86784873532262963,
+  "prediction_residual_improvement": 0.60243867781900162,
+  "torque_ripple_improvement": 0.93825118115651984,
+  "iq_tracking_change": -0.93327194758891885,
+  "mean_torque_change": 0.0021973431895885094,
+  "training_condition": "zero_noise",
+  "evaluation_condition": "zero_noise",
+  "profile_source_id": "zero_noise",
+  "control_angle_gate_basis": "percentage",
+  "control_angle_gate_details": {
+    "improvement": 0.8090906174172261,
+    "active_rmse_e_rad": 0.037574072209871974,
+    "percentage_threshold": 0.6,
+    "floor_threshold_e_rad": 0.038942386526328879
+  }
+}

@@ -1,4 +1,4 @@
-# Angle LUT Stage 0/1/2/3
+# Angle LUT Stage 0/1/2/3/4
 
 本目录在不修改原始 `FOC_fw_hifi_v1_0709backup.slx` 的前提下，实现编码器机械角周期误差注入和 Stage 1 物理残差验证。
 
@@ -13,6 +13,7 @@ s0 = run_stage0;
 r1 = run_stage1;
 r2 = run_stage2;
 r3 = run_stage3;
+r4 = run_stage4('Scope','NOISE_DIAGNOSTIC');
 ```
 
 `run_stage1` 会先检查最新 Stage 0 gate；未通过时返回 `BLOCKED`。所有案例使用 `Simulink.SimulationInput`，结果保存在 `results/<run_id>/`。
@@ -27,6 +28,12 @@ r3 = run_stage3;
 主路固定使用 `nominal_model`、`mu5=0.01`、`epsilon5=0.01 A^2`；另外两种幅值
 形式只生成诊断，不得按真值选择。若 Stage 2 不是完整 PASS，Stage 3 会保留
 `BLOCKED` 工件并停止。
+
+`run_stage4('Scope','NOISE_DIAGNOSTIC')` 实现 E40 Scheme 2 圆周 NLMS，并重新
+采集无附加随机电流噪声和“高斯噪声 95% 落在 +/-0.1 A”两条十机械周期训练流。
+两张 LUT 在两种测量条件下执行完整 2x2 交叉冻结。由于保留的正式 Stage 3 在
+低速 LUT 漂移门槛上为 FAIL，该入口无论诊断数值如何都只返回 `BLOCKED`，并写入
+`latest_stage4_diagnostic.txt`，绝不写正式 `latest_stage4.txt`。
 
 ## 边界
 
@@ -46,6 +53,12 @@ r3 = run_stage3;
   active 关闭、512 点零表。Scheme 5 每个样本只接收八个白名单标量并只更新
   相邻两个 shadow 节点；学习历史由 runner 在算法状态外记录。
 - Stage 3 固定 `Rs/Ls/psi_f`，不执行联合参数辨识，也不执行 Stage 4。
+- Stage 4 修改只存在于 `models/angle_lut_stage4_harness.slx`，保存默认 active 关闭、
+  512 点零表。主更新器仅接收六个 deployment-safe 标量；无 atan2 诊断使用独立
+  `y_d/y_q` 白名单接口。算法状态固定尺寸，不保存训练历史或真值。
+- Stage 4 的“无噪声”只表示附加高斯电流噪声为零；两组实验都保留
+  `0.02442002442 A/LSB` 的 ADC 量化。有噪声组使用三相独立零均值高斯噪声，
+  `sigma=0.0510213456924654 A`、种子 `20260818`。
 
 ## Stage 2 结果
 
@@ -78,3 +91,11 @@ Stage 2/3 新门控使用版本化合同：非零理想案例满足“控制角 
 或“active RMSE 达到编码器量化 RMS 地板加 0.10 deg_e”之一即可；每个冻结案例都会
 保存实际采用的 `percentage`、`quantization_floor` 或 `fixed_zero_exempt` 分支。
 非理想案例仍严格要求至少 50% 改善，不使用地板例外。
+
+## Stage 4 噪声诊断结果
+
+结果位于 `results/stage4_diagnostics/<run_id>/stage4/`。顶层保存配置、环境与文件
+清单、测试、训练/M128/单因素扫描、2x2 冻结矩阵、Scheme 4/5/2 对比、门控与
+manifest；`reports/` 自动生成 LUT 随融合次数变化、RMSE-时间/圈数、有噪/无噪
+对比、节点稳态方差、冻结矩阵、扫描和计算/存储成本的 PNG/PDF/GIF。评价真值只在
+每次流式更新全部结束后计算这些曲线，不参与 E40 更新或配置选择。

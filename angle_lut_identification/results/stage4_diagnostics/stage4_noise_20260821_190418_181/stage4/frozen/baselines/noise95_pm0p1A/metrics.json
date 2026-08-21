@@ -1,0 +1,16 @@
+{
+  "case_id": "periodic_combined_noise95_pm0p1A",
+  "active_enable": false,
+  "expected_class": "nonideal",
+  "sample_count": 50267,
+  "control_angle_rmse_e_rad": 0.196816268019623,
+  "id_rms_A": 1.603529928457081,
+  "iq_tracking_rmse_A": 0.21000771938961291,
+  "prediction_residual_rms_A": 0.14995258734735542,
+  "mean_torque_Nm": 1.0787558321360113,
+  "compensation_rms_e_rad": 0,
+  "compensation_max_abs_e_rad": 0,
+  "control_angle_rmse_e_deg": 11.276741497040033,
+  "torque_ripple_rms_Nm": 0.016945359562121756,
+  "elapsed_s": 11.2589819
+}

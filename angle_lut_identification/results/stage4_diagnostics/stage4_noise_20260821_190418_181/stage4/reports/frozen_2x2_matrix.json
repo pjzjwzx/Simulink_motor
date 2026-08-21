@@ -1,0 +1,59 @@
+{
+  "schema_version": "frozen_2x2_matrix-v1",
+  "available": true,
+  "reason": "",
+  "rows": [
+    {
+      "training_condition": "zero_noise",
+      "evaluation_condition": "zero_noise",
+      "baseline_control_angle_rmse_e_deg": 11.276741497040033,
+      "active_control_angle_rmse_e_deg": 2.1528357567454584,
+      "control_angle_improvement": 0.8090906174172261,
+      "control_angle_gate_basis": "percentage",
+      "id_rms_improvement": 0.86784873532262963,
+      "prediction_residual_improvement": 0.60243867781900162,
+      "torque_ripple_improvement": 0.93825118115651984,
+      "iq_tracking_change": -0.93327194758891885,
+      "mean_torque_change": 0.0021973431895885094
+    },
+    {
+      "training_condition": "zero_noise",
+      "evaluation_condition": "noise95_pm0p1A",
+      "baseline_control_angle_rmse_e_deg": 11.276741497040033,
+      "active_control_angle_rmse_e_deg": 2.1528357567454584,
+      "control_angle_improvement": 0.8090906174172261,
+      "control_angle_gate_basis": "percentage",
+      "id_rms_improvement": 0.86535902019567312,
+      "prediction_residual_improvement": 0.36881278712657595,
+      "torque_ripple_improvement": 0.93825118115651984,
+      "iq_tracking_change": -0.79202626279178812,
+      "mean_torque_change": 0.0021973431895885094
+    },
+    {
+      "training_condition": "noise95_pm0p1A",
+      "evaluation_condition": "zero_noise",
+      "baseline_control_angle_rmse_e_deg": 11.276741497040033,
+      "active_control_angle_rmse_e_deg": 2.1530301159527894,
+      "control_angle_improvement": 0.80907338201217738,
+      "control_angle_gate_basis": "percentage",
+      "id_rms_improvement": 0.867816075795304,
+      "prediction_residual_improvement": 0.60198363225357132,
+      "torque_ripple_improvement": 0.93827394130715858,
+      "iq_tracking_change": -0.93298378059449283,
+      "mean_torque_change": 0.0021977622307432923
+    },
+    {
+      "training_condition": "noise95_pm0p1A",
+      "evaluation_condition": "noise95_pm0p1A",
+      "baseline_control_angle_rmse_e_deg": 11.276741497040033,
+      "active_control_angle_rmse_e_deg": 2.1530301159527894,
+      "control_angle_improvement": 0.80907338201217738,
+      "control_angle_gate_basis": "percentage",
+      "id_rms_improvement": 0.86528161766144618,
+      "prediction_residual_improvement": 0.36807820819712822,
+      "torque_ripple_improvement": 0.93827394130715858,
+      "iq_tracking_change": -0.7919244668099108,
+      "mean_torque_change": 0.0021977622307432923
+    }
+  ]
+}

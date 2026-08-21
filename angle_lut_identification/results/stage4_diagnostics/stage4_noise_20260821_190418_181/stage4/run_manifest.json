@@ -1,0 +1,59 @@
+{
+  "schema_version": "stage4-noise-diagnostic-manifest-v1",
+  "run_id": "stage4_noise_20260821_190418_181",
+  "started_at_utc": "2026-08-21T11:04:18.205Z",
+  "completed_at_utc": "2026-08-21T11:16:58.012Z",
+  "scope": "NOISE_DIAGNOSTIC",
+  "final_status": "BLOCKED",
+  "diagnostic_outcome": "PASS",
+  "formal_stage3_prerequisite_satisfied": false,
+  "prerequisite_stage3": {
+    "run_id": "stage3_20260818_234502_642",
+    "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage3_20260818_234502_642\\stage3",
+    "status": "FAIL",
+    "scope": "BOUNDED_OR_PARTIAL_STAGE3",
+    "gate_sha256": "86b3125eeb82cd4d997c50062a9d26e3c823b4e35fe3914bc3489f9041bc7f45",
+    "result_sha256": "f92f2eabdfd2c90aa1162fc10f168bf111efef71e71c8f8f3b70f072f7650bdc",
+    "satisfied": false,
+    "critical_early_stop": {
+      "triggered": true,
+      "phase": "condition_drift",
+      "case_id": "",
+      "reason": "A Scheme-5 speed/direction/load LUT drift is >=0.5 deg_e."
+    },
+    "policy": "Immutable FAIL is retained; diagnostic execution cannot become formal PASS."
+  },
+  "prerequisite_stage2": {
+    "run_id": "stage2_20260818_221202_329",
+    "path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage2_20260818_221202_329\\stage2",
+    "status": "PASS",
+    "scope": "FULL_STAGE2",
+    "gate_sha256": "ed1f83333092656e3451a18c698f545fca18972f260a822c0aef09b5cdf6dc40",
+    "result_sha256": "2b6e9307bd8f1157954c8e93f22ee023c2808cf5fe0c634eac37e34e805a6ab5",
+    "satisfied": true
+  },
+  "random_seed": 20260818,
+  "source_model_sha256_before": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "source_model_sha256_after": "0ceef28412602e5553dfe580a0784afb253439bbee14b9f4608c20ceb586c2cf",
+  "stage1_harness_sha256_before": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage1_harness_sha256_after": "9fd6925cbaeec6fe57cca0fcb0de776eccd6245c9461fff55e3caef0dac1a12a",
+  "stage2_harness_sha256_before": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "stage2_harness_sha256_after": "9618730505fb3c62229f6115e7d66ecad722475970868144474481a8a6d355aa",
+  "stage3_harness_sha256_before": "b201ad0db5e3bc309366c51a13d41c7a7a2082d7e62699d291857d5511bc7727",
+  "stage3_harness_sha256_after": "b201ad0db5e3bc309366c51a13d41c7a7a2082d7e62699d291857d5511bc7727",
+  "stage4_harness_sha256_before": "527fcb6292b5559230bad300663efb8f417965e23723000d27c8717bd8405135",
+  "stage4_harness_sha256_after": "c7222a2f4ba23fe6cbfe0466ec840df9a0db8b7d84b02580f5bcba34f322dc4e",
+  "stage4_harness_sha256": "c7222a2f4ba23fe6cbfe0466ec840df9a0db8b7d84b02580f5bcba34f322dc4e",
+  "tests": {
+    "passed": true,
+    "count": 142,
+    "failed": 0,
+    "incomplete": 0,
+    "skipped": false
+  },
+  "truth_feedback_used": false,
+  "history_stored_inside_algorithm": false,
+  "formal_latest_stage4_updated": false,
+  "result_path": "D:\\Desktop\\HKU_2\\FOC_Arclab\\simulink_2\\angle_lut_identification\\results\\stage4_diagnostics\\stage4_noise_20260821_190418_181\\stage4",
+  "report_bundle_generated": true
+}

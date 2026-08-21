@@ -1,0 +1,331 @@
+{
+  "schema_version": "ofat_sweeps-v1",
+  "available": true,
+  "reason": "",
+  "rows": [
+    {
+      "sweep_family": "mu2",
+      "value": 0.0025,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.39571645029777858,
+      "shadow_rmse_e_deg": 0.26931842865169958,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.005,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.337024967632965,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.01,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.35449690633038772,
+      "shadow_rmse_e_deg": 0.311473329542537,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.02,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.41151856778827783,
+      "shadow_rmse_e_deg": 0.36897039514724239,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.33689139007262237,
+      "shadow_rmse_e_deg": 0.28155432077779141,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0.01,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.337024967632965,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0.1,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.33947090470494429,
+      "shadow_rmse_e_deg": 0.27767216887982876,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 1,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.337024967632965,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 2,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.39955486537754,
+      "shadow_rmse_e_deg": 0.27855712234169233,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 4,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.84332030006033609,
+      "shadow_rmse_e_deg": 0.38916458204544774,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.337024967632965,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0.001,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.3371530310265079,
+      "shadow_rmse_e_deg": 0.28110365763074974,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0.01,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.33833106909584276,
+      "shadow_rmse_e_deg": 0.28115448156345108,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.1,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 1.519124746038925,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.2,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.337024967632965,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.4,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.28885593585675395,
+      "shadow_rmse_e_deg": 0.28110148702240251,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "nodes",
+      "value": 128,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.41752298080269468,
+      "shadow_rmse_e_deg": 0.29057482912283672,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "algorithm_variant",
+      "value": null,
+      "condition": "zero_noise",
+      "active_rmse_e_deg": 0.33702482095583058,
+      "shadow_rmse_e_deg": 0.28108064885503131,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.0025,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.39599880286448658,
+      "shadow_rmse_e_deg": 0.27392329400676269,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.005,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.01,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.35593630944312415,
+      "shadow_rmse_e_deg": 0.32139893164173061,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "mu2",
+      "value": 0.02,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.41244612282108384,
+      "shadow_rmse_e_deg": 0.38024660049768577,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33765157242539889,
+      "shadow_rmse_e_deg": 0.28907793622942446,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0.01,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "epsilon2",
+      "value": 0.1,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.34006249119677889,
+      "shadow_rmse_e_deg": 0.2845816937377042,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 1,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 2,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.42931495844602513,
+      "shadow_rmse_e_deg": 0.40974219930156641,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "decimation",
+      "value": 4,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.84626733319545622,
+      "shadow_rmse_e_deg": 0.47350243710065176,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0.001,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33788715172653938,
+      "shadow_rmse_e_deg": 0.28853179463297834,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "smoothing",
+      "value": 0.01,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33897759374485614,
+      "shadow_rmse_e_deg": 0.28835346692674979,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.1,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 1.5197245074258361,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.2,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33777026558215373,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "gamma",
+      "value": 0.4,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.29188603770994959,
+      "shadow_rmse_e_deg": 0.28855778602472665,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "nodes",
+      "value": 128,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.41891376958521342,
+      "shadow_rmse_e_deg": 0.2958518406255089,
+      "fusion_count": 18,
+      "finite": true
+    },
+    {
+      "sweep_family": "algorithm_variant",
+      "value": null,
+      "condition": "noise95_pm0p1A",
+      "active_rmse_e_deg": 0.33775489926244323,
+      "shadow_rmse_e_deg": 0.2884448569618136,
+      "fusion_count": 18,
+      "finite": true
+    }
+  ]
+}

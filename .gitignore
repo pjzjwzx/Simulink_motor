@@ -26,6 +26,7 @@ angle_lut_identification/results/**
 !angle_lut_identification/results/latest_stage1.txt
 !angle_lut_identification/results/latest_stage2.txt
 !angle_lut_identification/results/latest_stage3.txt
+!angle_lut_identification/results/latest_stage4_diagnostic.txt
 
 # Keep audit-sized artifacts from the formal Stage 0 PASS.
 !angle_lut_identification/results/stage0_20260818_134242_494/
@@ -63,3 +64,16 @@ angle_lut_identification/results/**
 !angle_lut_identification/results/stage3_20260818_234502_642/**/*.png
 !angle_lut_identification/results/stage3_20260818_234502_642/**/*.pdf
 !angle_lut_identification/results/stage3_20260818_234502_642/stage3/luts/primary_luts.mat
+
+# Keep audit-sized artifacts, LUT tables and reports from the blocked Stage 4
+# noise diagnostic. Large training traces/state MAT files remain reproducible
+# and ignored; this run is diagnostic evidence, not a formal Stage 4 PASS.
+!angle_lut_identification/results/stage4_diagnostics/
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.json
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.csv
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.txt
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.png
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.pdf
+!angle_lut_identification/results/stage4_diagnostics/stage4_noise_20260821_190418_181/**/*.gif

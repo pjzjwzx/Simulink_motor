@@ -1,0 +1,28 @@
+[
+  {
+    "condition": "zero_noise",
+    "scheme4_active_rmse_e_deg": 0.304029573328837,
+    "scheme5_active_rmse_e_deg": 0.43835435720427351,
+    "scheme2_active_rmse_e_deg": 0.337024967632965,
+    "scheme4_storage_bytes": 10282,
+    "scheme5_storage_bytes": 5272,
+    "scheme2_storage_bytes": 9482,
+    "scheme4_sample_ops_estimate": 24,
+    "scheme5_sample_ops_estimate": 32,
+    "scheme2_sample_ops_estimate": 20,
+    "cost_estimate_policy": "scalar operation estimate; transcendental cost listed separately"
+  },
+  {
+    "condition": "noise95_pm0p1A",
+    "scheme4_active_rmse_e_deg": 0.30559846931418638,
+    "scheme5_active_rmse_e_deg": 0.437110490576611,
+    "scheme2_active_rmse_e_deg": 0.33777026558215373,
+    "scheme4_storage_bytes": 10290,
+    "scheme5_storage_bytes": 5295,
+    "scheme2_storage_bytes": 9474,
+    "scheme4_sample_ops_estimate": 24,
+    "scheme5_sample_ops_estimate": 32,
+    "scheme2_sample_ops_estimate": 20,
+    "cost_estimate_policy": "scalar operation estimate; transcendental cost listed separately"
+  }
+]

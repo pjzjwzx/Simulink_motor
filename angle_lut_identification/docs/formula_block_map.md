@@ -17,6 +17,7 @@
 | E30 | Scheme 5 幅值与二维预测 | `anglelut.scheme5_update64/128` | `shadow(phi), omega_e -> a_hat, y_hat` | 流式 20 kHz | `testE30E31AndPositiveE32Update` |
 | E31 | 切向/径向残差 | `anglelut.scheme5_update` | `y-y_hat, delta_hat -> t,n` | 流式 20 kHz | `testE30E31AndPositiveE32Update`, sensitivity reports |
 | E32 | 正号归一化两节点更新 | `anglelut.scheme5_update` | 八字段 LearningSample -> two shadow nodes | 流式 20 kHz | `testCenteredFiniteDifferenceGradient`, `testForwardReverseNormalizedUpdateMatches`, `testExactlyTwoNodesChange` |
+| E40 | Scheme 2 圆周 NLMS | `anglelut.scheme2_update64/128`；主路 `atan2(y_d,y_q)`，独立无 atan2 诊断 | 六字段 LearningSample -> two shadow nodes | 流式 20 kHz；整表处理仅融合事件 | `testScheme2*`、Stage4 truth-isolation/harness tests |
 | E50 | 有效性与质量权重 | Stage 1 `quality_gates` 输出的 `valid/quality_weight` 经六字段接口复用 | IdentificationBus -> `chi` | 20 kHz | truth-isolation/config tests |
 | E51 | 幅值/单调/融合约束 | `project_lut`（约束处理）与 `fuse_active_lut`，由 Scheme 4 求解或 Scheme 5 融合事件调用 | shadow/active/valid -> frozen active | 每次有效求解/融合 | constraint/fusion tests |
 
@@ -50,3 +51,12 @@ Stage 3 模型路径为
 truth、plant 或历史缓存。`stream_scheme5_trace` 在所有更新完成后才读取
 `truth_error_e_rad` 评分并生成学习演化图。nominal 路决定 gate，measured-magnitude
 和 direction-normalized 只做同流诊断。
+
+Stage 4 模型路径为
+`angle_lut_stage4_harness/Stage4_Active_LUT_Compensation`。E40 主更新接口仅包含
+`phi_m_rad/z_e_rad/quality_weight/theta_m_unwrapped_rad/timestamp_s/valid`；无 atan2
+版本通过另一个严格白名单接口读取 `y_d_A/y_q_A`。每个更新样本只写相邻两个
+shadow 节点；二阶平滑、E51 约束与 active 慢融合只允许在覆盖/行程/有效权重触发
+事件执行。runner 可在状态外保存融合快照用于 PNG/PDF/GIF，但 updater 状态不保存
+trace、truth、plant 或历史样本。Stage 4 harness 的 raw identification angle 继续旁路
+active LUT，修正角只连接控制 Park/AntiPark。

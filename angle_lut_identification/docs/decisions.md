@@ -100,3 +100,24 @@ minus the supplied frozen runtime LUT. Active-off remains initialized from the
 raw uncompensated frame. This corrects only simulation initial conditions; it
 does not modify the controller, LUT, training samples, thresholds, predictor,
 or evaluation window.
+
+## D015 - Stage 4 is an explicitly blocked noise diagnostic
+
+The immutable formal Stage-3 result `stage3_20260818_234502_642` remains FAIL
+because the independently learned Scheme-5 LUT drifts by `0.650/0.766 deg_e`
+at `-5/+5 rad/s_m`, above the locked `0.5 deg_e` limit. The user explicitly
+selected a diagnostic Stage-4 execution rather than changing that gate. Scheme
+2 therefore runs and preserves complete numeric artifacts, but its public
+`final_status` and `gate.status` are always BLOCKED and it cannot update a
+formal latest-Stage-4 pointer.
+
+The diagnostic primary is frozen before execution: M64, `mu2=0.005`,
+`epsilon2=0.01`, no update decimation, no optional smoothing, `gamma=0.2`, ten
+mechanical training cycles, `+/-30 deg_e` innovation clipping, `+/-25 deg_e`
+local LUT limits, and a 512-node runtime table. Parameter scans are one-factor
+diagnostics and cannot replace the primary after truth scoring. Two fresh
+streams differ only in post-ADC identification-current Gaussian noise: zero
+added noise versus `sigma=0.0510213456924654 A` (95% nominally inside
+`+/-0.1 A`), both retaining the baseline ADC quantization and seed 20260818.
+Each learned LUT is frozen under both measurement conditions, giving a 2x2
+cross-evaluation with two shared active-off baselines.

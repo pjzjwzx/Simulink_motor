@@ -1,0 +1,9 @@
+{
+  "schema_version": "scheme2-state-v1",
+  "M": 64,
+  "sample_count": 145664,
+  "accepted_count": 125664,
+  "fusion_count": 18,
+  "coverage_fraction": 1,
+  "history_stored_inside_state": false
+}
